@@ -3,10 +3,10 @@
     import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from "flowbite-svelte";
 </script>
 
-<Navbar style="height:7vh;" class="bg-pink">
+<Navbar class="bg-pink">
   <NavBrand href="{base}/">
-    <img src="{base}/images/girly_in_action.png" style="height:3vh;margin:1vh;border-radius:2vh" alt="Girly In Action" />
-    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Girly & the Pops</span>
+    <img src="{base}/images/girly_in_action.png" style="height:30px;margin:10px;border-radius:20px" alt="Girly In Action" />
+    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"><h1>Girly & the Pops</h1></span>
   </NavBrand>
   <NavHamburger />
   <NavUl>

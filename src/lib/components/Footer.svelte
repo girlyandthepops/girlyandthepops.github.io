@@ -25,7 +25,7 @@
   ];
 </script>
 
-<footer style="height:15vh" class="bg-pink text-black py-8 mt-12">
+<footer class="bg-pink text-black py-8" style="self-align: flex-end; bottom: 0; width: 100%;">
   <div class="container mx-auto px-4">
     <div class="flex flex-col items-center space-y-4">
       <!-- Band Name -->
