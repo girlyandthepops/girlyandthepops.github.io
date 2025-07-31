@@ -5,5 +5,6 @@
     let name = 'Girly';
     let src = '$lib/../images/release_show_Large.jpeg';
 </script>
-<img class="mx-auto" style="max-height:60vh; max-width:100%; aspect-ratio:auto; margin-top:50px; margin-bottom:50px" src={src} alt="{name} dances."/>
+<img class="mx-auto splash-img"  src={src} alt="{name} dances."/>
+
 
