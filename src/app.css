@@ -80,10 +80,10 @@ body {
 
 }
 
-
 .tooltip {
 	display: flex;
 	width: 100%;
+	max-width: 450px;
 }
 
 .tooltip .tooltipimgl {
@@ -141,7 +141,7 @@ body {
 
 .music_ep_option {
 	max-height: auto;
-	max-width: 570px;
+	max-width: 500px;
 	aspect-ratio: auto;
 	position: absolute;
 }
