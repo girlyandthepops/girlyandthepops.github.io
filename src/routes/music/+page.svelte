@@ -12,7 +12,7 @@
 
     let src = '$lib/../images/ep/bacgrnd.png';
 </script>
-<div class="mx-auto" style="max-height:auto; display:flex">
+<div class="mx-auto my-auto" style="max-height:auto; display:flex; flex-direction:column;">
     <img class="bg-pink ep-bg-img" src={src} alt="{name} lyrics."/>
     <div class="ep-container">
         <div class="tooltip" style="margin-top:19.5%">

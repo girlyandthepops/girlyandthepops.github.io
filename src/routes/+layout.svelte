@@ -8,8 +8,6 @@
 </script>
 <div style="min-height: 100vh; display: flex; flex-direction: column;">
 	<CustomNavbar />
-	<div style="display:flex;flex-direction:column">
 		{@render children()}
-	</div>
 	<Footer />
 </div>
