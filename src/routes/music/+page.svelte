@@ -17,31 +17,31 @@
     <div class="ep-container">
         <div class="tooltip" style="margin-top:19.5%">
             <img class="grow-and-rotate" src={ep1} alt="{name} lyrics."/>
-            <img class="tooltipimg" src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png">
+            <img class="tooltipimgl" src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png">
         </div>
         <div class="tooltip">
             <img class="grow-and-rotate" src={ep2} alt="{name} lyrics."/>
-            <img class="tooltipimg" src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png">
+            <img class="tooltipimgr" src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png">
         </div>
         <div class="tooltip">
             <img class="grow-and-rotate" src={ep3} alt="{name} lyrics."/>
-            <img class="tooltipimg" src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png">
+            <img class="tooltipimgl" src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png">
         </div>
         <div class="tooltip">
             <img class="grow-and-rotate" src={ep4} alt="{name} lyrics."/>
-            <img class="tooltipimg" src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png">
+            <img class="tooltipimgr" src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png">
         </div>
         <div class="tooltip">
             <img class="grow-and-rotate" src={ep5} alt="{name} lyrics."/>
-            <img class="tooltipimg" src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png">
+            <img class="tooltipimgl" src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png">
         </div>
         <div class="tooltip">
             <img class="grow-and-rotate" src={ep6} alt="{name} lyrics."/>
-            <img class="tooltipimg" src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png">
+            <img class="tooltipimgr" src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png">
         </div>
         <div class="tooltip">
             <img class="grow-and-rotate" src={ep7} alt="{name} lyrics."/>
-            <img class="tooltipimg" src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png">
+            <img class="tooltipimgl" src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png">
         </div>
     </div>
 </div>

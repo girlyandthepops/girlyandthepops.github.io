@@ -86,7 +86,7 @@ body {
 	width: 100%;
 }
 
-.tooltip .tooltipimg {
+.tooltip .tooltipimgl {
 	visibility: hidden;
 	width: 20%;
 	background-color: black;
@@ -95,10 +95,26 @@ body {
 
 	/* Position the tooltip */
 	position: absolute;
+	left:0;
+	z-index: 1;
+}
+.tooltip .tooltipimgr {
+	visibility: hidden;
+	width: 20%;
+	background-color: black;
+	color: #fff;
+	border-radius: 6px;
+
+	/* Position the tooltip */
+	position: absolute;
+	right:0;
 	z-index: 1;
 }
 
-.tooltip:hover .tooltipimg {
+.tooltip:hover .tooltipimgl {
+	visibility: visible;
+}
+.tooltip:hover .tooltipimgr {
 	visibility: visible;
 }
 
