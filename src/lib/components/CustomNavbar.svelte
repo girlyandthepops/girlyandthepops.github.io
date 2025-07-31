@@ -12,7 +12,6 @@
   <NavUl>
     <NavLi href="{base}/">Home</NavLi>
     <NavLi href="{base}/music">Music</NavLi>
-    <NavLi href="{base}/shows">Shows</NavLi>
     <NavLi href="{base}/contact">Contact</NavLi>
   </NavUl>
 </Navbar>
