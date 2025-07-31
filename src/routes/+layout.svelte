@@ -6,8 +6,9 @@
 
 	let { children } = $props();
 </script>
-<div style="min-height: 100vh; display: flex; flex-direction: column;">
-	<CustomNavbar />
-		{@render children()}
-	<Footer />
+
+<CustomNavbar />
+<div style="min-height:calc(100vh - 270px); display:flex; flex-direction:column">
+	{@render children()}
 </div>
+<Footer />
