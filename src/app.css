@@ -56,3 +56,69 @@ body {
    background-color:#e9b3b5; 
    font-family: "Win95";
 }
+
+.ep-bg-img {
+	width:100%;
+	max-width:570px;
+	aspect-ratio:auto
+}
+
+
+.ep-container {
+	position: absolute;
+	width:100%;
+	max-width:570px;
+	aspect-ratio:570/805;
+}
+
+.grow-and-rotate {
+	max-height:auto;
+	max-width:570px;
+	aspect-ratio:auto;
+      &:hover {
+		animation: growAndRotate 0.5s ;
+		animation-fill-mode: forwards;
+      cursor: pointer;
+    }
+}
+
+@keyframes growAndRotate {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  100% {
+    transform: scale(1.2) rotate(5deg);
+  }
+}
+
+
+.tooltip {
+  display: flex;
+  grid-template-rows: [row1-start] 50% [row1-end row2-start] 50% [row2-end];
+  flex-direction: column;
+  width:100%;
+}
+
+.tooltip .tooltipimg {
+  visibility: hidden;
+  width: 20%;
+  background-color: black;
+  color: #fff;
+  border-radius: 6px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltipimg {
+  visibility: visible;
+}
+
+
+.music_ep_option {
+	max-height:auto; 
+	max-width:570px; 
+	aspect-ratio:auto; 
+	position:absolute;
+}

@@ -5,7 +5,7 @@
 
 <Navbar style="height:7vh;" class="bg-pink">
   <NavBrand href="{base}/">
-    <img src="{base}/images/girly_in_action.png" class="me-3 h-6 sm:h-9" alt="Girly In Action" />
+    <img src="{base}/images/girly_in_action.png" style="height:3vh;margin:1vh;border-radius:2vh" alt="Girly In Action" />
     <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Girly & the Pops</span>
   </NavBrand>
   <NavHamburger />
