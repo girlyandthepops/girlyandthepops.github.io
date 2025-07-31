@@ -17,7 +17,7 @@
 body {
 	background-color: aliceblue;
 	background-image: url("/images/phone.png");
-	background-size: 10%
+	background-size: min(9vw, 9vh);
 }
 
 @theme {

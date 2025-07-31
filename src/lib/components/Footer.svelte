@@ -50,7 +50,7 @@
       
       <!-- Copyright -->
       <div class="text-center text-gray-400 text-sm border-t border-gray-700 pt-4 w-full">
-        <p>&copy; 2025 Girly and the Pops. All rights reserved.</p>
+        <p>&copy; 2025 Girly and the Pops. All rights reserved. Background Art by Mercy </p>
       </div>
     </div>
   </div>
