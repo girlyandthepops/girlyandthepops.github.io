@@ -22,9 +22,15 @@
 		axios
 			.post(URL, data, { headers: headers })
 			.then(function (response) {
+				document.getElementById('name').value = '';
+				document.getElementById('email').value = '';
+				document.getElementById('description').value = '';
 				console.log(response);
 			})
 			.catch(function (error) {
+				document.getElementById('name').value = '';
+				document.getElementById('email').value = '';
+				document.getElementById('description').value = '';
 				console.log("Error", error);
 			});
 	}
