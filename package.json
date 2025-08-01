@@ -16,7 +16,6 @@
 		"test": "npm run test:unit -- --run && npm run test:e2e",
 		"test:e2e": "playwright test",
 		"deploy": "npm run build && npx gh-pages -d build -t"
-
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.2.5",
@@ -49,6 +48,7 @@
 	},
 	"dependencies": {
 		"@google/model-viewer": "^4.1.0",
+		"axios": "^1.11.0",
 		"flowbite": "^3.1.2",
 		"flowbite-svelte": "^1.9.0"
 	}

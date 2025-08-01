@@ -20,8 +20,9 @@ body {
 	background-size: min(9vw, 9vh);
 }
 
+
 @theme {
-	--color-primary-50: #fff5f2;
+	--color-primary-50: #e9b3b5;
 	--color-primary-100: #fff1ee;
 	--color-primary-200: #ffe4de;
 	--color-primary-300: #ffd5cc;
@@ -56,8 +57,8 @@ body {
 }
 
 .splash-img {
-	max-width: 50vw;
-	max-height: 80vh;
+	max-width: 90vw;
+	max-height: calc(90vh - 270px);
 	aspect-ratio: auto;
 	margin-block: 50px;
 }
@@ -78,8 +79,8 @@ body {
 .ep-container {
 	position: relative;
 	aspect-ratio: 640/904;
-	max-width: 50vw;
-	max-height: 80vh;
+	max-width: 90vw;
+	max-height: calc(90vh - 270px);
 	margin-block: 50px;
 }
 
