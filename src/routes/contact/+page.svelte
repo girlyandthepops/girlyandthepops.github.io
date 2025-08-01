@@ -18,7 +18,6 @@
 		});
 		var headers = {
 			'Content-Type': 'application/json; charset=utf-8',
-			'Data-Type': 'json'
 		};
 		axios
 			.post(URL, data, { headers: headers })
