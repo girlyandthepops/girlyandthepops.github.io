@@ -60,7 +60,7 @@ body {
 	max-width: 90vw;
 	max-height: calc(90vh - 270px);
 	aspect-ratio: auto;
-	margin-block: 50px;
+	margin-block: max(50px, 50% - width);
 }
 
 .bg-pink {
