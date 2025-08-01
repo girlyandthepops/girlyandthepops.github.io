@@ -4,7 +4,6 @@
 	let src = '$lib/../images/ep/missed_calls_from_girly.jpeg';
 </script>
 
-<iframe width="700" height="700" style="margin:auto" src="https://www.youtube.com/embed/videoseries?si=Hv5F_U-_mjG3epPD&amp;list=OLAK5uy_nFnnU51D4jeMflYFeP9hS-_9H3ulFX1HM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+<iframe  data-testid="embed-iframe" style="margin:auto; border-radius:12px;width:80vw;height:60vw" src="https://open.spotify.com/embed/album/4MnUfn0eBVUkdhpGRrdrfv?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 
