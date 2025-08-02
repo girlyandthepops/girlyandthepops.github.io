@@ -36,7 +36,7 @@
 	}
 </script>
 
-<div id="contact" class="bg-pink container mx-auto my-auto" style="width:80%;padding:2em">
+<div id="contact" class="bg-pink container mx-auto my-auto" style="width:min(80%,600px);padding:2em">
 	<div class="container">
 		<h3 class="text-decoration-thickness-4 text-center text-2xl underline" style="font-size: 3rem;">
 			Contact and Booking
