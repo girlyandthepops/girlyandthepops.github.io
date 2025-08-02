@@ -7,17 +7,17 @@
 	<NavBrand href="{base}/">
 		<img
 			src="{base}/images/girly_in_action.png"
-			style="height:30px;margin:10px;border-radius:20px"
+			style="height:3em;margin:1em;border-radius:2em"
 			alt="Girly In Action"
 		/>
 		<span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
-			><h1>Girly & the Pops</h1></span
+			><h1 style="font-size: 1.5em">Girly & the Pops</h1></span
 		>
 	</NavBrand>
 	<NavHamburger />
 	<NavUl>
-		<NavLi href="{base}/">Home</NavLi>
-		<NavLi href="{base}/music">Music</NavLi>
-		<NavLi href="{base}/contact">Contact</NavLi>
+		<NavLi style="font-size: 2em" href="{base}/">Home</NavLi>
+		<NavLi style="font-size: 2em" href="{base}/music">Music</NavLi>
+		<NavLi style="font-size: 2em" href="{base}/contact">Contact</NavLi>
 	</NavUl>
 </Navbar>
