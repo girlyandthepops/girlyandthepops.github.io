@@ -11,7 +11,7 @@
 			alt="Girly In Action"
 		/>
 		<span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
-			><h1 style="font-size: 1.5em">Girly & the Pops</h1></span
+			><h1 style="font-size: 1.5em">girly and the pops</h1></span
 		>
 	</NavBrand>
 	<NavHamburger />
