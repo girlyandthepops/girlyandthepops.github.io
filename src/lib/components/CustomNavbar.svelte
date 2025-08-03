@@ -52,7 +52,7 @@
 			alt="Girly In Action"
 		/>
 		<span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
-			><h1 style="font-size: 1.5em">girly and the pops</h1>
+			><h1 style="font-size: 1.8em;">girly and the pops</h1>
 						<div class="flex space-x-6">
 				{#each socialLinks as link}
 					<a
