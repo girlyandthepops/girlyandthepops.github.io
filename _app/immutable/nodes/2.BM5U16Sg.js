@@ -1,0 +1,1 @@
+import"../chunks/NZTpNUN0.js";import"../chunks/DHYcqtiQ.js";import{A as s,B as m}from"../chunks/Dz-p1c-I.js";import{s as r}from"../chunks/DMKs_WYX.js";var e=s('<img class="mx-auto my-auto splash-img"/>');function c(t){let o="$lib/../images/release_show_Large.jpeg";var a=e();r(a,"src",o),r(a,"alt","Girly dances."),m(t,a)}export{c as component};
