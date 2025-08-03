@@ -1,5 +1,13 @@
 <script lang="ts">
-    let {onsubmit} = $props();
+    let {submitHandler} = $props();
+    let handleSubmit = (e) => {
+        e.preventDefault();
+        submitHandler(
+            document.getElementById('name').value,
+            document.getElementById('email').value,
+            document.getElementById('description').value
+        );
+    };
 </script>
 
 <div
@@ -13,7 +21,7 @@
 		</h3>
 		<div style="display:flex; flex-direction:column; align-items:center; justify-content:center;">
 			<div class="p-7" style="width:100%">
-				<form onsubmit={onsubmit}>
+				<form onsubmit={handleSubmit}>
 					<div class="form-group">
 						<input
 							class="form-control px-7"
