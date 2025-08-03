@@ -39,7 +39,7 @@
 	<div class="container mx-auto px-4">
 		<div class="flex flex-col items-center space-y-4">
 			<!-- Band Name -->
-			<h3 class="text-center text-2xl font-bold">Girly and the Pops</h3>
+			<h3 class="text-center text-2xl font-bold">girly and the pops</h3>
 
 			<!-- Social Media Icons -->
 			<div class="flex space-x-6">
@@ -60,7 +60,7 @@
 
 			<!-- Copyright -->
 			<div class="w-full border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
-				<p>&copy; 2025 Girly and the Pops. All rights reserved. Background Art by Mercy</p>
+				<p>&copy; 2025 girly and the pops. All rights reserved. Background Art by Mercy</p>
 			</div>
 		</div>
 	</div>
