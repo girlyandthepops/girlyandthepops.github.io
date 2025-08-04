@@ -1,8 +1,5 @@
 <script lang="ts">
-	import { base } from '$app/paths';
-	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
-	import Music from '$lib/components/Music.svelte';
-
+	// You can customize these links to your actual social media profiles
 	interface SocialLink {
 		name: string;
 		url: string;
@@ -44,24 +41,17 @@
 	];
 </script>
 
-<Navbar class="bg-pink" style="border-color:black; border-bottom-width:3px">
-	<NavBrand href="{base}/">
-		<img
-			src="{base}/images/girly_in_action.png"
-			style="height:4em;margin:1em;border-radius:2em;border:2px solid var(--color-secondary-100);margin-top:1.5em"
-			alt="Girly In Action"
-		/>
-		<span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
-			><h1 style="font-size: min(1.5em, 6vw)">girly and the pops</h1>
-			<div class="flex space-x-5">
-				<Music />
-			</div>
-		</span>
-	</NavBrand>
-	<NavHamburger />
-	<NavUl>
-		<NavLi style="font-size: min(2em, 4vw)" href="{base}/">Home</NavLi>
-		<NavLi style="font-size: min(2em, 4vw)" href="{base}/music">Music</NavLi>
-		<NavLi style="font-size: min(2em, 4vw)" href="{base}/contact">Contact</NavLi>
-	</NavUl>
-</Navbar>
+{#each socialLinks as link}
+	<a
+		href={link.url}
+		target="_blank"
+		rel="noopener noreferrer"
+		class="transform transition-colors duration-300 hover:scale-110 hover:text-white"
+        style="color: var(--color-secondary-600);"
+		aria-label={link.name}
+	>
+		<svg class="h-5 w-5" fill="currentColor" viewBox={link.viewBox}>
+			<path d={link.icon} />
+		</svg>
+	</a>
+{/each}
