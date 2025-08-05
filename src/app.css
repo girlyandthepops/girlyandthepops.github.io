@@ -22,22 +22,22 @@ body {
 
 /* unvisited link */
 a.merC:link {
-  color: var(--color-secondary-500);
+	color: var(--color-secondary-500);
 }
 
 /* visited link */
 a.merC:visited {
-  color: var(--color-secondary-600);
+	color: var(--color-secondary-600);
 }
 
 /* mouse over link */
 a.merC:hover {
-  color: hotpink;
+	color: hotpink;
 }
 
 /* selected link */
 a.merC:active {
-  color: blue;
+	color: blue;
 }
 
 @theme {
@@ -106,15 +106,17 @@ a.merC:active {
 .tooltip {
 	position: relative;
 	display: flex;
-	z-index: 1;
 }
 
 .tooltip .tooltipimgl {
+	display: flex;
+	flex-direction: column;
 	visibility: hidden;
 	width: 20%;
 	background-color: black;
 	color: #fff;
 	border-radius: 6px;
+	font-size: 0.1em;
 
 	/* Position the tooltip */
 	position: absolute;
@@ -123,11 +125,14 @@ a.merC:active {
 }
 
 .tooltip .tooltipimgr {
+	display: flex;
+	flex-direction: column;
 	visibility: hidden;
 	width: 20%;
 	background-color: black;
 	color: #fff;
 	border-radius: 6px;
+	font-size: 0.1em;
 
 	/* Position the tooltip */
 	position: absolute;
@@ -146,11 +151,11 @@ a.merC:active {
 .grow-and-rotate {
 	width: 100%;
 	aspect-ratio: auto;
-	z-index: 1;
+	z-index: 0;
 }
 
 .tooltip:hover .grow-and-rotate {
-	animation: growAndRotate 0.5s;
+	animation: growAndRotate 0.25s;
 	animation-fill-mode: forwards;
 	cursor: pointer;
 }
@@ -170,4 +175,25 @@ a.merC:active {
 	max-width: 500px;
 	aspect-ratio: auto;
 	position: absolute;
+}
+
+.typewriter {
+	font-family: DinaRemaster;
+	line-height: 1.2;
+}
+
+.lyric-sheet {
+	background-color: #ffe;
+	display: flex;
+	overflow-y: auto;
+	flex-direction: column;
+	position: absolute;
+	width: 90%;
+	height: 90%;
+	top: 5%;
+	left: 5%;
+	align-items: center;
+	padding: 1em;
+	z-index: 10;
+	display: none;
 }
