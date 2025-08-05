@@ -14,6 +14,13 @@
 	src: url("/fonts/W95FA.otf");
 }
 
+@font-face {
+	font-family: "DinaRemasterII";
+	src: url("/fonts/DinaRemasterII.ttc");
+}
+
+
+
 body {
 	background-color: aliceblue;
 	background-image: url("/images/phone.png");
@@ -116,7 +123,7 @@ a.merC:active {
 	background-color: black;
 	color: #fff;
 	border-radius: 6px;
-	font-size: 0.1em;
+	font-size: 0.4em;
 
 	/* Position the tooltip */
 	position: absolute;
@@ -132,7 +139,7 @@ a.merC:active {
 	background-color: black;
 	color: #fff;
 	border-radius: 6px;
-	font-size: 0.1em;
+	font-size: 0.4em;
 
 	/* Position the tooltip */
 	position: absolute;
@@ -178,7 +185,7 @@ a.merC:active {
 }
 
 .typewriter {
-	font-family: DinaRemaster;
+	font-family: DinaRemasterII;
 	line-height: 1.2;
 }
 

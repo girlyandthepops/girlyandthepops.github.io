@@ -5,7 +5,7 @@
 
 <div
 	class="bg-pink"
-	style="padding:2.5em;margin:auto;width:min(600px,80vw);height:500px;display:flex;flex-direction:column;border-radius:2em;border:0.5em solid var(--color-secondary-100);box-shadow:0 0 5em black;"
+	style="padding:1.5em;margin:auto;width:min(600px,80vw);height:500px;display:flex;flex-direction:column;border-radius:2em;border:0.5em solid var(--color-secondary-100);box-shadow:0 0 5em black;"
 >
 	<a
 		href="{base}/missed_calls_from_girly"

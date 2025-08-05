@@ -8,7 +8,7 @@
 
 <div class={customClass} style="display:{isvisible ? 'flex' : 'none'}">
 	<button
-		style="font-family:Win95;position:absolute;top:3px;right:10px"
+		style="font-family:Win95;position:absolute;top:3px;right:1%"
 		onclick={() => {
 			//document.querySelector('#lyric-sheet').style.display = 'none';
             closeHandler(false);
