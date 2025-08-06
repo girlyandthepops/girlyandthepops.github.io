@@ -1,5 +1,12 @@
 <script lang="ts">
-	let name = 'Girly';
+	import Untitled01 from '$lib/components/Lyrics/Untitled01.svelte';
+	import Mazes from '$lib/components/Lyrics/Mazes.svelte';
+	import EvilStreet from '$lib/components/Lyrics/EvilStreet.svelte';
+	import Veil from '$lib/components/Lyrics/Veil.svelte';
+	import Louie from '$lib/components/Lyrics/Louie.svelte';
+	import SholdveCried from '$lib/components/Lyrics/SholdveCried.svelte';
+	import HuntingHill from '$lib/components/Lyrics/HuntingHill.svelte';
+
 	let ep1 = '$lib/../images/ep/1.png';
 	let ep2 = '$lib/../images/ep/2.png';
 	let ep3 = '$lib/../images/ep/3.png';
@@ -8,13 +15,6 @@
 	let ep6 = '$lib/../images/ep/6.png';
 	let ep7 = '$lib/../images/ep/7.png';
 
-	import Untitled01 from '$lib/components/Lyrics/Untitled01.svelte';
-	import Mazes from '$lib/components/Lyrics/Mazes.svelte';
-	import EvilStreet from '$lib/components/Lyrics/EvilStreet.svelte';
-	import Veil from '$lib/components/Lyrics/Veil.svelte';
-	import Louie from '$lib/components/Lyrics/Louie.svelte';
-	import SholdveCried from '$lib/components/Lyrics/SholdveCried.svelte';
-	import HuntingHill from '$lib/components/Lyrics/HuntingHill.svelte';
 
 	let child = $state(Untitled01);
 
@@ -27,14 +27,14 @@
 	import LyricSheet from '$lib/components/LyricSheet.svelte';
 </script>
 
-<div class="mx-auto my-auto" style="display:flex; flex-direction:column;overflow-y:hidden">
+<div style="margin: auto; display:flex; flex-direction:column;overflow-y:hidden">
 	<div class="ep-container">
-		<img class="bg-pink ep-bg-img" {src} alt="{name} lyrics." />
+		<img class="bg-pink ep-bg-img" {src} alt="Missed calls from Girly lyrics." />
 		<div class="tooltip" style="margin-top:19.5%">
 			<img
 				class="grow-and-rotate"
 				src={ep1}
-				alt="{name} lyrics."
+				alt="Untitled 01"
 				onclick={() => {
 					setlyricsvisible(true);
 					child = Untitled01;
@@ -48,7 +48,7 @@
 			<img
 				class="grow-and-rotate"
 				src={ep2}
-				alt="{name} lyrics."
+				alt="Mazes"
 				onclick={() => {
 					setlyricsvisible(true);
 					child = Mazes;
@@ -62,7 +62,7 @@
 			<img
 				class="grow-and-rotate"
 				src={ep3}
-				alt="{name} lyrics."
+				alt="Evil Street"
 				onclick={() => {
 					setlyricsvisible(true);
 					child = EvilStreet;
@@ -76,7 +76,7 @@
 			<img
 				class="grow-and-rotate"
 				src={ep4}
-				alt="{name} lyrics."
+				alt="Veil"
 				onclick={() => {
 					setlyricsvisible(true);
 					child = Veil;
@@ -90,7 +90,7 @@
 			<img
 				class="grow-and-rotate"
 				src={ep5}
-				alt="{name} lyrics."
+				alt="Louie"
 				onclick={() => {
 					setlyricsvisible(true);
 					child = Louie;
@@ -104,7 +104,7 @@
 			<img
 				class="grow-and-rotate"
 				src={ep6}
-				alt="{name} lyrics."
+				alt="Should've Cried"
 				onclick={() => {
 					setlyricsvisible(true);
 					child = SholdveCried;
@@ -118,7 +118,7 @@
 			<img
 				class="grow-and-rotate"
 				src={ep7}
-				alt="{name} lyrics."
+				alt="Hunting Hill"
 				onclick={() => {
 					setlyricsvisible(true);
 					child = HuntingHill;
