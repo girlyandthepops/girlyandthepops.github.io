@@ -61,6 +61,7 @@
 	<NavHamburger />
 	<NavUl>
 		<NavLi style="font-size: min(2em, 4vw)" href="{base}/">Home</NavLi>
+		<NavLi style="font-size: min(2em, 4vw)" href="{base}/shows">Shows</NavLi>
 		<NavLi style="font-size: min(2em, 4vw)" href="{base}/music">Music</NavLi>
 		<NavLi style="font-size: min(2em, 4vw)" href="{base}/contact">Contact</NavLi>
 	</NavUl>
