@@ -33,7 +33,7 @@
 {#if hasSubmit === false} 
 	<ContactForm submitHandler={submitToAPI} />
 {:else}
-<div class="bg-pink container mx-auto my-auto" style="width:min(80%,600px);padding:2em">
+<div class="bg-pink container mx-auto my-auto border-2 rounded-lg" style="width:min(80%,600px);padding:2em">
 	<h3 class="text-decoration-thickness-4 text-center text-2xl" style="font-size: 3rem;">
 		Thanks for contacting us! We'll get back to you soon 😉.
 	</h3>

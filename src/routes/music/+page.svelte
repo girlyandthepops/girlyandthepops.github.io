@@ -4,8 +4,8 @@
 </script>
 
 <div
-	class="bg-pink"
-	style="padding:1.5em;margin:auto;width:min(600px,80vw);height:500px;display:flex;flex-direction:column;border-radius:2em;border:0.5em solid var(--color-secondary-100);box-shadow:0 0 5em black;"
+	class="bg-pink border-2 rounded-2xl shadow-2xl"
+	style="padding:1.5em;margin:auto;width:min(600px,80vw);height:500px;display:flex;flex-direction:column"
 >
 	<a
 		href="{base}/missed_calls_from_girly"

@@ -12,7 +12,7 @@
 
 <div
 	id="contact"
-	class="bg-pink container mx-auto my-auto"
+	class="bg-pink container mx-auto my-auto border-2 rounded-lg shadow-2xl"
 	style="width:min(80%,600px);padding:2em"
 >
 	<div class="container">
