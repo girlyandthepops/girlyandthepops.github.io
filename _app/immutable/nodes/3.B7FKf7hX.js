@@ -1,1 +1,0 @@
-import"../chunks/NZTpNUN0.js";import"../chunks/Cg2Jc7E6.js";import{o as s,v as p,r as m,w as i,x as f,y as l}from"../chunks/DPzROGHV.js";import{s as n}from"../chunks/CGyw9UiZ.js";var _=s("<h1> </h1>");function x(t){let a="Girly";var e=_(),r=f(e);l(e),p(o=>n(r,`About ${o??""}!`),[()=>a.toUpperCase()],i),m(t,e)}export{x as component};
