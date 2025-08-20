@@ -9,7 +9,7 @@
             time: '8:00 PM',
             venue: 'The Midway Cafe',
             location: 'Jamaica Plain, MA',
-            ticketUrl: 'https://midwaycafe.com/'
+            ticketUrl: 'https://www.facebook.com/events/692645947152327/'
         },
         {
             date: 'September 6, 2025',
