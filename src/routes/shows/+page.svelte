@@ -5,13 +5,6 @@
     // Sample show dates - replace with real data
     const upcomingShows = [
         {
-            date: 'August 30, 2025',
-            time: '8:00 PM',
-            venue: 'The Midway Cafe',
-            location: 'Jamaica Plain, MA',
-            ticketUrl: 'https://www.facebook.com/events/692645947152327/'
-        },
-        {
             date: 'September 6, 2025',
             time: '9:00 PM',
             venue: 'The Cantab Lounge Underground',
@@ -43,6 +36,13 @@
     ];
 
     const pastShows = [
+        {
+            date: 'August 30, 2025',
+            time: '8:00 PM',
+            venue: 'The Midway Cafe',
+            location: 'Jamaica Plain, MA',
+            ticketUrl: 'https://www.facebook.com/events/692645947152327/'
+        },
         {
             date: 'August 1, 2025',
             time: '7:00 PM',
