@@ -5,13 +5,6 @@
     // Sample show dates - replace with real data
     const upcomingShows = [
         {
-            date: 'September 6, 2025',
-            time: '9:00 PM',
-            venue: 'The Cantab Lounge Underground',
-            location: 'Central Square, Cambridge, MA',
-            ticketUrl: 'door'
-        },
-        {
             date: 'September 18, 2025',
             time: '9:00 PM',
             venue: 'The Jungle',
@@ -36,6 +29,13 @@
     ];
 
     const pastShows = [
+            {
+            date: 'September 6, 2025',
+            time: '9:00 PM',
+            venue: 'The Cantab Lounge Underground',
+            location: 'Central Square, Cambridge, MA',
+            ticketUrl: 'door'
+        },
         {
             date: 'August 30, 2025',
             time: '8:00 PM',
