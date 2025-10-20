@@ -4,16 +4,17 @@
 
 	// Sample show dates - replace with real data
 	const upcomingShows = [
+		
+	];
+
+	const pastShows = [
 		{
 			date: 'October 10, 2025',
 			time: '7:30 PM',
 			venue: 'The Jungle',
 			location: 'Union Square, Somerville, MA',
 			ticketUrl: 'door' // Sold out
-		}
-	];
-
-	const pastShows = [
+		},
 		{
 			date: 'September 20, 2025',
 			time: '9:00 PM',
