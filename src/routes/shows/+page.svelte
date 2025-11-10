@@ -5,8 +5,24 @@
 	// Sample show dates - replace with real data
 	const upcomingShows = [
 		{
-			date: 'November 4, 2025',
-			time: '10:00 PM',
+			date: 'November 28, 2025',
+			time: '8:00 PM',
+			venue: 'Pasta Planet',
+			location: 'DM for address',
+			ticketUrl: 'door'
+		},
+
+		{
+			date: 'December 5, 2025',
+			time: '9:00 PM',
+			venue: 'The Jungle',
+			location: 'Union Square, Somerville, MA',
+			ticketUrl: 'door'
+		},
+
+		{
+			date: 'December 13, 2025',
+			time: '9:00 PM',
 			venue: 'The Jungle',
 			location: 'Union Square, Somerville, MA',
 			ticketUrl: 'door'
@@ -14,6 +30,13 @@
 	];
 
 	const pastShows = [
+		{
+			date: 'November 4, 2025',
+			time: '10:00 PM',
+			venue: 'The Jungle',
+			location: 'Union Square, Somerville, MA',
+			ticketUrl: 'door'
+		},
 		{
 			date: 'October 10, 2025',
 			time: '7:30 PM',
