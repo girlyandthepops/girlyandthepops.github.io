@@ -19,7 +19,7 @@
 	<br />
 	i’m kissing curbs now
 	<br />
-	you shit my nerves now
+	you shot my nerves now
 	<br />
 	was the lens always skewed?
 	<br />
