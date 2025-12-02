@@ -13,6 +13,13 @@
 		},
 		{
 			date: 'December 13, 2025',
+			time: '3:00 PM',
+			venue: 'School House',
+			location: 'DM for address',
+			ticketUrl: 'door'
+		},
+		{
+			date: 'December 13, 2025',
 			time: '9:00 PM',
 			venue: 'The Jungle',
 			location: 'Union Square, Somerville, MA',
