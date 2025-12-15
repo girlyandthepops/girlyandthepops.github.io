@@ -3,7 +3,9 @@
 	import { base } from '$app/paths';
 
 	// Sample show dates - replace with real data
-	const upcomingShows = [
+	const upcomingShows = [];
+
+	const pastShows = [
 		{
 			date: 'December 5, 2025',
 			time: '9:00 PM',
@@ -24,10 +26,7 @@
 			venue: 'The Jungle',
 			location: 'Union Square, Somerville, MA',
 			ticketUrl: 'door'
-		}
-	];
-
-	const pastShows = [
+		},
 		{
 			date: 'November 28, 2025',
 			time: '8:00 PM',
