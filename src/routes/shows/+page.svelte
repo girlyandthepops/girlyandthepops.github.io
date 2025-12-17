@@ -7,7 +7,7 @@
 
 	const pastShows = [
 		{
-			date: 'December 5, 2025',
+			date: 'December 13, 2025',
 			time: '9:00 PM',
 			venue: 'The Jungle',
 			location: 'Union Square, Somerville, MA',
@@ -21,7 +21,7 @@
 			ticketUrl: 'door'
 		},
 		{
-			date: 'December 13, 2025',
+			date: 'December 5, 2025',
 			time: '9:00 PM',
 			venue: 'The Jungle',
 			location: 'Union Square, Somerville, MA',
