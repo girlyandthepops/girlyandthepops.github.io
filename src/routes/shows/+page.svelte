@@ -110,18 +110,6 @@
 </svelte:head>
 
 <div class="container mx-auto max-w-4xl px-4 py-8">
-	<div class="bg-primary-200 mb-12 rounded-lg border-2 text-center" style="padding:15px">
-		<h1
-			class="text-secondary-800 mb-4 text-4xl font-bold md:text-6xl"
-			style="font-family: Win95;text-decoration: underline;"
-		>
-			SHOW DATES
-		</h1>
-		<p class="text-secondary-600 mb-6 text-lg">
-			Come see Girly and the Pops live! Check out our upcoming shows and get your tickets.
-		</p>
-	</div>
-
 	<!-- Upcoming Shows Section -->
 	<section class="bg-primary-200 mb-12 rounded-lg border-2" style="padding:15px">
 		<h2
