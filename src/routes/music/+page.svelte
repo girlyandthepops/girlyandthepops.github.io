@@ -2,25 +2,28 @@
 	import Music from '$lib/components/Music.svelte';
 	import { base } from '$app/paths';
 </script>
-<div
-	class="bg-pink border-2 rounded-2xl shadow-2xl"
-	style="padding:1.5em;margin:auto;width:min(600px,80vw);height:500px;display:flex;flex-direction:column"
->
-	<a
-		class="merC"
-		style="font-size:1.5em">LIVE AT 246</a
-	>
-<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/album/4lql69eMl6gZxtnutKHtsR?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-</div>
 
 <div
-	class="bg-pink border-2 rounded-2xl shadow-2xl"
-	style="padding:1.5em;margin:auto;width:min(600px,80vw);height:500px;display:flex;flex-direction:column"
+	class="bg-pink rounded-2xl border-2 shadow-2xl"
+	style="margin-bottom:2em;padding:1.5em;margin:auto;width:min(600px,80vw);height:1000px;display:flex;flex-direction:column"
 >
+	<a class="merC" style="font-size:1.5em">LIVE AT 246</a>
+	<iframe
+		data-testid="embed-iframe"
+		style="border-radius:12px"
+		src="https://open.spotify.com/embed/album/4lql69eMl6gZxtnutKHtsR?utm_source=generator"
+		width="100%"
+		height="352"
+		frameBorder="0"
+		allowfullscreen=""
+		allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+		loading="lazy"
+	></iframe>
 	<a
 		href="{base}/missed_calls_from_girly"
 		class="merC"
-		style="font-size:1.5em; text-decoration:underline">MISSED CALLS FROM GIRLY (Click here for lyrics)</a
+		style="font-size:1.5em; text-decoration:underline"
+		>MISSED CALLS FROM GIRLY (Click here for lyrics)</a
 	>
 	<iframe
 		data-testid="embed-iframe"
