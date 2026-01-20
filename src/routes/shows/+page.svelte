@@ -9,6 +9,7 @@
 			time: '7:30 PM',
 			venue: 'Rabies',
 			location: 'DM for Address',
+			poster: '$lib/../images/rabies_01_26.jpg',
 			ticketUrl: 'door'
 		},
 		{
