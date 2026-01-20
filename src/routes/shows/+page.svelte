@@ -6,7 +6,7 @@
 	const upcomingShows = [
 		{
 			date: 'January 23, 2026',
-			time: '8:00 PM',
+			time: '7:30 PM',
 			venue: 'Rabies',
 			location: 'DM for Address',
 			ticketUrl: 'door'
