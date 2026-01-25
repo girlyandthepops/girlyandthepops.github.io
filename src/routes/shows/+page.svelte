@@ -4,6 +4,17 @@
 
 	// Sample show dates - replace with real data
 	const upcomingShows = [
+	];
+
+	const pastShows = [
+		{
+			date: 'January 24, 2026',
+			time: '8:00 PM',
+			venue: 'Tourist Trap',
+			poster: '$lib/../images/tt_01_26.jpg',
+			location: 'DM for address',
+			ticketUrl: 'door'
+		},
 		{
 			date: 'January 23, 2026',
 			time: '7:30 PM',
@@ -21,17 +32,6 @@
 			additionalInfo: '$15 @ door',
 			ticketUrl: 'https://www.eventbrite.com/checkout-external?eid=1969919815196'
 		},
-		{
-			date: 'January 24, 2026',
-			time: '8:00 PM',
-			venue: 'Tourist Trap',
-			poster: '$lib/../images/tt_01_26.jpg',
-			location: 'DM for address',
-			ticketUrl: 'door'
-		},
-	];
-
-	const pastShows = [
 		{
 			date: 'December 13, 2025',
 			time: '9:00 PM',
@@ -167,6 +167,8 @@
 						time={show.time}
 						venue={show.venue}
 						location={show.location}
+						additionalInfo={show.additionalInfo}
+						posterUrl={show.poster}
 						ticketUrl={show.ticketUrl}
 					/>
 				{/each}
