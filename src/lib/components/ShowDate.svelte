@@ -50,12 +50,6 @@
 						Get Tickets
 					</a>
 				{/if}
-			{:else}
-				<span
-					class="inline-block cursor-not-allowed rounded bg-gray-400 px-4 py-2 font-bold text-white"
-				>
-					Sold Out
-				</span>
 			{/if}
 		</div>
 	</div>

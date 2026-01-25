@@ -169,7 +169,6 @@
 						location={show.location}
 						additionalInfo={show.additionalInfo}
 						posterUrl={show.poster}
-						ticketUrl={show.ticketUrl}
 					/>
 				{/each}
 			</div>
