@@ -4,6 +4,33 @@
 
 	// Sample show dates - replace with real data
 	const upcomingShows = [
+		{
+			date: 'May 6, 2026',
+			time: '8:00 PM',
+			venue: 'Silhouette Lounge',
+			location: 'Allston, MA',
+			additionalInfo: 'with Interzone and Saint Throwaway',
+			poster: null,
+			ticketUrl: null
+		},
+		{
+			date: 'May 8, 2026',
+			time: '7:00 PM',
+			venue: 'Pasta Planet',
+			location: 'DM for address',
+			additionalInfo: null,
+			poster: "https://scontent-lga3-3.cdninstagram.com/v/t51.82787-15/673735730_18003566126865995_2523975409220385383_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=Mzg4MTYxMjE2ODczMDM3NDQ1Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTM1MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=-hNONNCLS0sQ7kNvwFebmg7&_nc_oc=AdpcAazVnJN5HuOJ4ZkYCA0Wqev6AIQLxV-qtt4Doadpl30Jtsf-1NdE286l9t_x7ctavOXIXy1_r8bhT2yLP_5t&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_gid=XXNCtqf_mLHQS5GGVGKx9Q&_nc_ss=7a22e&oh=00_Af6DblGgCC6ziKCrfwx1dkb4syAquh6W9ri1EX-tbe-AOQ&oe=6A0176E5",
+			ticketUrl: null
+		},
+		{
+			date: 'May 15, 2026',
+			time: 'TBA',
+			venue: 'Davis Square',
+			location: 'Somerville, MA',
+			additionalInfo: 'with Battlemode - details TBA',
+			poster: null,
+			ticketUrl: null
+		}
 	];
 
 	const pastShows = [
@@ -28,7 +55,8 @@
 			time: '10:00 PM',
 			venue: 'The Jungle',
 			location: 'Union Square, Somerville, MA',
-			poster: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F851425509%2F300850577841%2F1%2Foriginal.20240916-164052?crop=focalpoint&fit=crop&w=600&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.502840909091&fp-y=0.56652360515&s=08e5661ab46112c0b54aff20aa9d7b4c",
+			poster:
+				'https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F851425509%2F300850577841%2F1%2Foriginal.20240916-164052?crop=focalpoint&fit=crop&w=600&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.502840909091&fp-y=0.56652360515&s=08e5661ab46112c0b54aff20aa9d7b4c',
 			additionalInfo: '$15 @ door',
 			ticketUrl: 'https://www.eventbrite.com/checkout-external?eid=1969919815196'
 		},
