@@ -32,7 +32,7 @@
 			venue: 'Pasta Planet',
 			location: 'DM for address',
 			additionalInfo: null,
-			poster: "https://scontent-lga3-3.cdninstagram.com/v/t51.82787-15/673735730_18003566126865995_2523975409220385383_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=Mzg4MTYxMjE2ODczMDM3NDQ1Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTM1MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=-hNONNCLS0sQ7kNvwFebmg7&_nc_oc=AdpcAazVnJN5HuOJ4ZkYCA0Wqev6AIQLxV-qtt4Doadpl30Jtsf-1NdE286l9t_x7ctavOXIXy1_r8bhT2yLP_5t&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_gid=XXNCtqf_mLHQS5GGVGKx9Q&_nc_ss=7a22e&oh=00_Af6DblGgCC6ziKCrfwx1dkb4syAquh6W9ri1EX-tbe-AOQ&oe=6A0176E5",
+			poster: "$lib/../images/pasta_05_2026.jpg",
 			ticketUrl: null
 		},
 		{
