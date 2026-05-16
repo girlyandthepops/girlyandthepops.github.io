@@ -18,12 +18,12 @@
 
 	const pastShows = [
 		{
-			date: 'May 6, 2026',
-			time: '8:00 PM',
-			venue: 'Silhouette Lounge',
-			location: 'Allston, MA',
-			additionalInfo: 'with Interzone and Saint Throwaway',
-			poster: null,
+			date: 'May 15, 2026',
+			time: 'TBA',
+			venue: 'Davis Square',
+			location: 'Somerville, MA',
+			additionalInfo: 'with Battlemode - details TBA',
+			poster: "$lib/../images/down_in_davis.jpg",
 			ticketUrl: null
 		},
 		{
@@ -36,11 +36,11 @@
 			ticketUrl: null
 		},
 		{
-			date: 'May 15, 2026',
-			time: 'TBA',
-			venue: 'Davis Square',
-			location: 'Somerville, MA',
-			additionalInfo: 'with Battlemode - details TBA',
+			date: 'May 6, 2026',
+			time: '8:00 PM',
+			venue: 'Silhouette Lounge',
+			location: 'Allston, MA',
+			additionalInfo: 'with Interzone and Saint Throwaway',
 			poster: null,
 			ticketUrl: null
 		},
