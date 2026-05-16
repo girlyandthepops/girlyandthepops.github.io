@@ -5,6 +5,19 @@
 	// Sample show dates - replace with real data
 	const upcomingShows = [
 		{
+			date: 'June 25, 2026',
+			time: '7:00 PM',
+			venue: 'Cantab Lounge',
+			location: 'Cambridge, MA',
+			additionalInfo: null,
+			poster: null,
+			ticketUrl: null
+		},
+
+	];
+
+	const pastShows = [
+		{
 			date: 'May 6, 2026',
 			time: '8:00 PM',
 			venue: 'Silhouette Lounge',
@@ -30,10 +43,7 @@
 			additionalInfo: 'with Battlemode - details TBA',
 			poster: null,
 			ticketUrl: null
-		}
-	];
-
-	const pastShows = [
+		},
 		{
 			date: 'January 24, 2026',
 			time: '8:00 PM',
