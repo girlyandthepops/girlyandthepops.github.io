@@ -19,8 +19,6 @@
 	src: url("/fonts/DinaRemasterII.ttc");
 }
 
-
-
 body {
 	background-color: aliceblue;
 	background-image: url("/images/phone.png");
@@ -177,6 +175,26 @@ a.merC:active {
 	}
 }
 
+@-moz-keyframes growAndRotate {
+	0% {
+		-moz-transform: scale(1) rotate(0deg);
+	}
+
+	100% {
+		-moz-transform: scale(1.2) rotate(6deg);
+	}
+}
+
+@-webkit-keyframes growAndRotate {
+	0% {
+		-webkit-transform: scale(1) rotate(0deg);
+	}
+
+	100% {
+		-webkit-transform: scale(1.2) rotate(6deg);
+	}
+}
+
 .music_ep_option {
 	max-height: auto;
 	max-width: 500px;
@@ -203,4 +221,49 @@ a.merC:active {
 	padding: 1em;
 	z-index: 10;
 	display: none;
+}
+
+/*
+Source - https://stackoverflow.com/a/16771693
+Posted by Giona, modified by community. See post 'Timeline' for change history
+Retrieved 2026-05-23, License - CC BY-SA 4.0
+*/
+
+
+@-moz-keyframes spin {
+	100% {
+		-moz-transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes spin {
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@keyframes spin {
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@-moz-keyframes spin-counter {
+	100% {
+		-moz-transform: rotate(-360deg);
+	}
+}
+
+@-webkit-keyframes spin-counter {
+	100% {
+		-webkit-transform: rotate(-360deg);
+	}
+}
+
+@keyframes spin-counter {
+	100% {
+		-webkit-transform: rotate(-360deg);
+		transform: rotate(-360deg);
+	}
 }

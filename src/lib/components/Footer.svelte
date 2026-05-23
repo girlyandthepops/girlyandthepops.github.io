@@ -10,7 +10,7 @@
 		<div class="flex flex-col items-center space-y-4">
 			<!-- Band Name -->
 			<div class="text-center text-2xl font-bold">
-				girly and the pops. Art and typography by <a
+				girly and the pops. Art by <a
 					class="merC"
 					style="text-decoration:underline"
 					href="https://www.instagram.com/i_do_poke/?hl=en">MerC</a
