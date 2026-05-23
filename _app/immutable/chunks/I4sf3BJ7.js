@@ -1,0 +1,1 @@
+import{D as t,E as S,F as b,e as h,S as k}from"./CaX-fHFu.js";function u(r,i){return r===i||r?.[k]===i}function c(r={},i,a,E){return t(()=>{var f,s;return S(()=>{f=s,s=[],h(()=>{r!==a(...s)&&(i(r,...s),f&&u(a(...f),r)&&i(null,...f))})}),()=>{b(()=>{s&&u(a(...s),r)&&i(null,...s)})}}),r}export{c as b};
