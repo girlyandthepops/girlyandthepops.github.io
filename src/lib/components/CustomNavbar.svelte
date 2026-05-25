@@ -31,7 +31,7 @@
 		},
 		{
 			name: 'Apple Music',
-			url: 'https://music.apple.com/us/album/missed-calls-from-girly/1828935259',
+			url: 'https://music.apple.com/us/artist/girly-and-the-pops/1828935261',
 			viewBox: '0 0 50 50',
 			icon: 'M 44.527344 34.75 C 43.449219 37.144531 42.929688 38.214844 41.542969 40.328125 C 39.601563 43.28125 36.863281 46.96875 33.480469 46.992188 C 30.46875 47.019531 29.691406 45.027344 25.601563 45.0625 C 21.515625 45.082031 20.664063 47.03125 17.648438 47 C 14.261719 46.96875 11.671875 43.648438 9.730469 40.699219 C 4.300781 32.429688 3.726563 22.734375 7.082031 17.578125 C 9.457031 13.921875 13.210938 11.773438 16.738281 11.773438 C 20.332031 11.773438 22.589844 13.746094 25.558594 13.746094 C 28.441406 13.746094 30.195313 11.769531 34.351563 11.769531 C 37.492188 11.769531 40.8125 13.480469 43.1875 16.433594 C 35.421875 20.691406 36.683594 31.78125 44.527344 34.75 Z M 31.195313 8.46875 C 32.707031 6.527344 33.855469 3.789063 33.4375 1 C 30.972656 1.167969 28.089844 2.742188 26.40625 4.78125 C 24.878906 6.640625 23.613281 9.398438 24.105469 12.066406 C 26.796875 12.152344 29.582031 10.546875 31.195313 8.46875 Z'
 		},
@@ -44,26 +44,21 @@
 	];
 </script>
 
-<Navbar class="bg-pink" style="border-color:black; border-bottom-width:3px">
-	<NavBrand href="{base}/">
-		<img
-			src="{base}/images/girly_in_action.png"
-			style="height:4em;margin:1em;border-radius:2em;border:2px solid var(--color-secondary-100);margin-top:1.5em"
-			alt="Girly In Action"
-		/>
+<Navbar class="bg-grey" style="border-color:transparent; border-bottom-width:3px;background-color: rgba(0, 0, 0, 0.7);height:min(7.5em, 30vw);z-index:20">
+	<NavBrand href="{base}/"
+	>
 		<span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
-			><h1 style="font-size: min(1.5em, 6vw)">girly and the pops</h1>
+			><h1 style="font-size: min(1.5em, 6vw);color:white">girly and the pops</h1>
 			<div class="flex space-x-5">
 				<Music />
 			</div>
 		</span>
 	</NavBrand>
-	<NavHamburger />
-	<NavUl>
-		<NavLi style="font-size: min(2em, 4vw)" href="{base}/">Home</NavLi>
-		<NavLi style="font-size: min(2em, 4vw)" href="{base}/epk">EPK</NavLi>
-		<NavLi style="font-size: min(2em, 4vw)" href="{base}/shows">Shows</NavLi>
-		<NavLi style="font-size: min(2em, 4vw)" href="{base}/music">Music</NavLi>
-		<NavLi style="font-size: min(2em, 4vw)" href="{base}/contact">Contact</NavLi>
+	<NavHamburger style="color:white"/>
+	<NavUl ulClass="bg-black md:bg-transparent dark:bg-black dark:md:bg-transparent">
+		<NavLi style="font-size: min(2em, 4vw);color:white" href="{base}/epk">EPK</NavLi>
+		<NavLi style="font-size: min(2em, 4vw);color:white" href="{base}/tour">Tour</NavLi>
+		<NavLi style="font-size: min(2em, 4vw);color:white" href="{base}/music">Music</NavLi>
+		<NavLi style="font-size: min(2em, 4vw);color:white" href="{base}/booking">Booking</NavLi>
 	</NavUl>
 </Navbar>

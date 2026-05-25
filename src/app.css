@@ -15,14 +15,25 @@
 }
 
 @font-face {
+	font-family: "LCDDot-TR";
+	src: url("/fonts/lcd.ttf");
+}
+
+@font-face {
+	font-family: "JD LCD Rounded";
+	src: url("/fonts/jd_lcd_rounded.ttf");
+}
+
+@font-face {
 	font-family: "DinaRemasterII";
 	src: url("/fonts/DinaRemasterII.ttc");
 }
 
 body {
 	background-color: aliceblue;
-	background-image: url("/images/phone.png");
-	background-size: min(9vw, 9vh);
+	background-image: url("/images/runforthehills.jpg");
+	background-size: max(110vh);
+	background-position: center top;
 }
 
 /* unvisited link */
@@ -87,10 +98,12 @@ a.merC:active {
 	margin-block: max(50px, 50% - width);
 }
 
-.bg-pink {
-	background-color: #e9b3b5;
+.bg-grey {
+	background-color: rgba(0, 0, 0, 0.35);
 	font-family: "Win95";
+	backdrop-filter: blur(3px);
 }
+
 
 .ep-bg-img {
 	position: absolute;
@@ -223,6 +236,29 @@ a.merC:active {
 	display: none;
 }
 
+.footer {
+	position: relative;
+	height: 200px;
+	width: 100%;
+	border-color: transparent;
+	border-top-width: 3px;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.banner {
+	animation: translateAccross 12s linear infinite;
+	position: absolute;
+	font-size: 8vw;
+	color: white;
+	text-shadow: 0.1em 0.01em 0.2em #38bdf8;
+	font-family: JD LCD Rounded;
+	font-weight: 500;
+	text-overflow: clip;
+	white-space: nowrap;
+}
+
+	
+
 /*
 Source - https://stackoverflow.com/a/16771693
 Posted by Giona, modified by community. See post 'Timeline' for change history
@@ -265,5 +301,15 @@ Retrieved 2026-05-23, License - CC BY-SA 4.0
 	100% {
 		-webkit-transform: rotate(-360deg);
 		transform: rotate(-360deg);
+	}
+}
+
+@keyframes translateAccross {
+	0% {
+		left: calc(-52vw)
+	}
+
+	100% {
+		left: calc(100%)
 	}
 }

@@ -8,7 +8,7 @@
 </script>
 
 <CustomNavbar />
-<div style="min-height:calc(100vh - 270px); display:flex; flex-direction:column">
+<div style="min-height:calc(100vh - min(7.5em, 30vw) - 200px); display:flex; flex-direction:column">
 	{@render children()}
 </div>
 <Footer />

@@ -157,16 +157,18 @@
 
 <div class="container mx-auto max-w-4xl px-4 py-8">
 	<!-- Upcoming Shows Section -->
-	<section class="bg-primary-200 mb-12 rounded-lg border-2" style="padding:15px">
+	<section class="bg-grey mb-12 rounded-lg border-2" style="padding:15px">
 		<h2
 			class="text-secondary-800 border-secondary-400 mb-6 border-b-2 pb-2 text-3xl font-bold"
-			style="font-family: Win95;"
+			style="font-family: Win95"
 		>
 			Upcoming Shows
 		</h2>
 
 		{#if upcomingShows.length > 0}
-			<div class="space-y-4">
+			<div class="space-y-4"
+ 				style="background-color: rgba(0, 0, 0, 0.85); padding: 15px; border-radius: 8px;"
+			>
 				{#each upcomingShows as show}
 					<ShowDate
 						date={show.date}
@@ -180,7 +182,7 @@
 				{/each}
 			</div>
 		{:else}
-			<div class="bg-pink rounded-lg p-8 text-center">
+			<div class="bg-grey rounded-lg p-8 text-center">
 				<p class="text-secondary-700 text-xl" style="font-family: Win95;">
 					No upcoming shows scheduled yet. Check back soon!
 				</p>
@@ -188,8 +190,43 @@
 		{/if}
 	</section>
 
+	<!-- Tour 2026-->
+	<section class="bg-grey mb-12 rounded-lg border-2" style="padding:15px; ">
+		<h2
+			class="text-secondary-800 border-secondary-400 mb-6 border-b-2 pb-2 text-3xl font-bold"
+			style="font-family: Win95;"
+		>
+			Tour 2026
+		</h2>
+
+		{#if upcomingShows.length > 0}
+			<div class="space-y-4"
+ 				style="background-color: rgba(0, 0, 0, 0.85); padding: 15px; border-radius: 8px;"
+			>
+				{#each upcomingShows as show}
+					<ShowDate
+						date={show.date}
+						time={show.time}
+						venue={show.venue}
+						location={show.location}
+						additionalInfo={show.additionalInfo}
+						posterUrl={show.poster}
+						ticketUrl={show.ticketUrl}
+					/>
+				{/each}
+			</div>
+		{:else}
+			<div class="bg-grey rounded-lg p-8 text-center">
+				<p class="text-secondary-700 text-xl" style="font-family: Win95;">
+					No upcoming shows scheduled yet. Check back soon!
+				</p>
+			</div>
+		{/if}
+	</section>
+
+
 	<!-- Past Shows Section -->
-	<section class="bg-primary-200 rounded-lg border-2" style="padding:15px">
+	<section class="bg-grey rounded-lg border-2" style="padding:15px">
 		<h2
 			class="text-secondary-800 border-secondary-400 mb-6 border-b-2 pb-2 text-3xl font-bold"
 			style="font-family: Win95;"
@@ -198,7 +235,7 @@
 		</h2>
 
 		{#if pastShows.length > 0}
-			<div class="space-y-4 opacity-75">
+			<div class="space-y-4" style="background-color: rgba(0, 0, 0, 0.85); padding: 15px; border-radius: 8px;">
 				{#each pastShows as show}
 					<ShowDate
 						date={show.date}
@@ -211,7 +248,7 @@
 				{/each}
 			</div>
 		{:else}
-			<div class="bg-pink rounded-lg p-8 text-center opacity-75">
+			<div class="bg-grey rounded-lg p-8 text-center opacity-75">
 				<p class="text-secondary-700 text-xl" style="font-family: Win95;">
 					No past shows to display yet.
 				</p>

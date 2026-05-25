@@ -56,8 +56,8 @@
 </script>
 
 <div
-	class="bg-pink shadow-2xl"
-	style="position:relative;margin-bottom:2em;padding:0;margin:auto;width:min(800px,80vw);aspect-ratio:2334 / 3300;background-image:url('$lib/../images/epk/epk_background.jpeg');background-size:100% 100%"
+	class="bg-grey shadow-2xl"
+	style="position:relative;margin-bottom:2em;padding:0;margin:auto;width:min(80vw,52vh);aspect-ratio:2334 / 3300;background-image:url('$lib/../images/epk/epk_background.jpeg');background-size:100% 100%"
 >
 	<img
 		bind:this={lucyImage}
@@ -109,10 +109,10 @@
 		src={bookingtext}
 		on:mouseenter={handleBookingEnter}
 		on:mouseleave={handleBookingLeave}
-		on:click={()=>{window.location.href = '/contact';}}
+		on:click={()=>{window.location.href = '/booking';}}
 	/>
 	<p
-		style="position:absolute;bottom:0;left:0;pointer-events:none;padding:5%;color:#dcd2d1;font-size:min(16px,1.6vw)"
+		style="position:absolute;bottom:0;left:0;pointer-events:none;padding:5%;color:#dcd2d1;font-size:min(1.6vw,1vh)"
 	>
 		Based in Boston Girly and the Pops is the synthesis of 4 misfits* contexts, influences and
 		emotions. Songs move freely from 2000s garage rock to reggaeton and anywhere in between. The

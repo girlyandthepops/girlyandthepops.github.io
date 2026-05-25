@@ -3,18 +3,15 @@
 </script>
 
 <footer
-	class="bg-pink py-8 text-black"
-	style="position:relative;height:200px; width: 100%;border-color:black; border-top-width:3px"
+	class="py-8 text-white footer"
+	style="background-color: rgba(0, 0, 0, 0.7);position:relative; bottom:0;backdrop-filter: blur(2px);font-family: Win95;"
 >
 	<div class="container mx-auto px-4">
-		<div class="flex flex-col items-center space-y-4">
+		<div class="flex flex-col items-center space-y-4"
+		>
 			<!-- Band Name -->
 			<div class="text-center text-2xl font-bold">
-				girly and the pops. Art by <a
-					class="merC"
-					style="text-decoration:underline"
-					href="https://www.instagram.com/i_do_poke/?hl=en">MerC</a
-				>
+				girly and the pops
 			</div>
 			<div class="flex space-x-6">
 				<Music />

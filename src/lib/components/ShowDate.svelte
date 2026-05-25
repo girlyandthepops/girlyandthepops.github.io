@@ -10,7 +10,7 @@
 	} = $props();
 </script>
 
-<div class="show-date-card bg-pink border-secondary-400 mb-4 rounded-lg border-2 p-4 shadow-md">
+<div class="show-date-card bg-grey border-secondary-400 mb-4 rounded-lg border-2 p-4 shadow-md">
 	<div class="flex flex-col md:flex-row md:items-center md:justify-between">
 		<div class="flex-1">
 			<h3 class="text-secondary-800 mb-2 text-xl font-bold">{venue}</h3>

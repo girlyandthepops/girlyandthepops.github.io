@@ -29,7 +29,7 @@
 
 <div style="margin: auto; display:flex; flex-direction:column;overflow-y:hidden">
 	<div class="ep-container">
-		<img class="bg-pink ep-bg-img" {src} alt="Missed calls from Girly lyrics." />
+		<img class="bg-grey ep-bg-img" {src} alt="Missed calls from Girly lyrics." />
 		<div class="tooltip" style="margin-top:19.5%">
 			<img
 				class="grow-and-rotate"

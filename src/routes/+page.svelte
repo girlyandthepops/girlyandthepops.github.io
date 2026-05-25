@@ -3,9 +3,19 @@
 	let src = '$lib/../images/liveat246.jpg';
 </script>
 
-<h1
-	style="position:absolute; width:100%; top:calc(40vh); text-align: center; font-size: 5vh; color: white; text-shadow: 0.1em 0.01em 0.2em #38bdf8;font-family:Win95; font-weight:900; width: 100% z-index: 10;background-color: black;"
+<div
+	style="position:absolute;background-color:black;width:100%;height:8vw; top:calc(40vh);overflow:hidden"
 >
-	Live Recordings Out on Streaming
+<h1
+	class="banner"
+	style="top:-2vw"
+>
+RUN FOR THE HILLS
 </h1>
-<img class="splash-img mx-auto my-auto" {src} alt="{name} dances." />
+<h1
+	class="banner"
+	style="animation-delay: 6000ms;left:-52vw;top:-2vw"
+>
+RUN FOR THE HILLS
+</h1>
+</div>

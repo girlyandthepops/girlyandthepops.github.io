@@ -4,10 +4,9 @@
 </script>
 
 <div
-	class="bg-pink rounded-2xl border-2 shadow-2xl"
-	style="margin-bottom:2em;padding:1.5em;margin:auto;width:min(600px,80vw);height:1000px;display:flex;flex-direction:column"
+	class="bg-grey rounded-2xl border-2 shadow-2xl"
+	style="margin-bottom:2em;padding:1.5em;margin:auto;width:min(800px,80vw);height:1000px;display:flex;flex-direction:column"
 >
-	<p class="merC" style="font-size:1.5em">LIVE AT 246</p>
 	<iframe
 		title="Live at 246"
 		data-testid="embed-iframe"
@@ -19,12 +18,7 @@
 		allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
 		loading="lazy"
 	></iframe>
-	<a
-		href="{base}/missed_calls_from_girly"
-		class="merC"
-		style="font-size:1.5em; text-decoration:underline"
-		>MISSED CALLS FROM GIRLY (Click here for lyrics)</a
-	>
+	<div style="height:10em"></div>
 	<iframe
 		title="Missed Calls from Girly"
 		data-testid="embed-iframe"

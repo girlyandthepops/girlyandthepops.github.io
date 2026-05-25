@@ -12,11 +12,11 @@
 
 <div
 	id="contact"
-	class="bg-pink container mx-auto my-auto border-2 rounded-lg shadow-2xl"
+	class="bg-grey container mx-auto my-auto border-2 rounded-lg shadow-2xl"
 	style="width:min(80%,600px);padding:2em"
 >
 	<div class="container">
-		<h3 class="text-decoration-thickness-4 text-center text-2xl underline" style="font-size: 3rem;">
+		<h3 class="text-decoration-thickness-4 text-center text-2xl underline" style="font-size: 3rem; color:white">
 			Contact and Booking
 		</h3>
 		<div style="display:flex; flex-direction:column; align-items:center; justify-content:center;">
@@ -64,10 +64,10 @@
 			</div>
 		</div>
 		<hr />
-		<h3 class="text-decoration-thickness-4 text-center text-2xl underline" style="font-size: 3rem;">
+		<h3 class="text-decoration-thickness-4 text-center text-2xl underline" style="font-size: 3rem; color:white">
 			Send us an email:
 		</h3>
-		<div class="tab-content">
+		<div class="tab-content" style="color:white">
 			<p><span class="glyphicon glyphicon-envelope"></span>Email: girlyandthepops@gmail.com</p>
 		</div>
 	</div>
