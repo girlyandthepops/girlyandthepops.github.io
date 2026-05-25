@@ -61,17 +61,8 @@
 				</div>
 			</span>
 		</NavBrand>
-		<div class="flex items-center gap-2 md:order-2">
-			<DarkMode
-				ariaLabel="Toggle dark mode"
-				class="text-white hover:bg-white/10 dark:text-white dark:hover:bg-white/10 background-invert"
-			/>
-			<NavHamburger style="color:white" />
-		</div>
-		<NavUl
-			class="md:order-1"
-			ulClass="bg-black md:bg-transparent dark:bg-black dark:md:bg-transparent"
-		>
+		<NavHamburger style="color:white" />
+		<NavUl ulClass="bg-black md:bg-transparent dark:bg-black dark:md:bg-transparent">
 			<NavLi style="font-size: min(2em, 4vw);color:white;font-weight: bold;" href="{base}/epk"
 				>epk</NavLi
 			>
@@ -86,6 +77,10 @@
 			"
 				href="{base}/booking">booking</NavLi
 			>
+			<DarkMode
+				ariaLabel="Toggle dark mode"
+				class="background-invert text-white hover:bg-white/10 dark:text-white dark:hover:bg-white/10"
+			/>
 		</NavUl>
 	</Navbar>
 </div>

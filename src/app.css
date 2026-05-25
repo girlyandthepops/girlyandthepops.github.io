@@ -44,7 +44,7 @@ body{
 	background-image: url('/images/runforthehills.jpg');
 	background-size: max(110vh);
 	background-position: center top;
-	font-family: 'PixelPlay';
+	font-family: 'Pixel Play';
 }
 
 .dark body {
@@ -317,7 +317,6 @@ a.merC:active {
 
 .dark .front-banner {
 	position: absolute;
-	background-color: black;
 	width: 100%;
 	height: 8vw;
 	top: calc(40vh);
