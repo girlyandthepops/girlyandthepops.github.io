@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
+	import { DarkMode, Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
 	import Music from '$lib/components/Music.svelte';
 
 	interface SocialLink {
@@ -50,20 +50,42 @@
 		style="border-color:transparent; border-bottom-width:3px;background-color: rgba(0, 0, 0, 0.7);height:min(7.5em, 30vw);z-index:20"
 	>
 		<NavBrand href="{base}/">
-			<span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white;"
-				><h1 style="font-size: min(1.5em, 6vw);color:white;text-align:center;transform:translateY(-20%)">girly & the pops</h1>
+			<span class="dark:text-white; self-center text-xl font-semibold whitespace-nowrap"
+				><h1
+					style="font-size: min(1.5em, 6vw);color:white;text-align:center;transform:translateY(-20%)"
+				>
+					girly & the pops
+				</h1>
 				<div class="flex space-x-5">
 					<Music />
 				</div>
 			</span>
 		</NavBrand>
-		<NavHamburger style="color:white" />
-		<NavUl ulClass="bg-black md:bg-transparent dark:bg-black dark:md:bg-transparent">
-			<NavLi style="font-size: min(2em, 4vw);color:white;font-weight: bold;" href="{base}/epk">epk</NavLi>
-			<NavLi style="font-size: min(2em, 4vw);color:white;font-weight: bold;" href="{base}/tour">tour</NavLi>
-			<NavLi style="font-size: min(2em, 4vw);color:white;font-weight: bold;" href="{base}/music">music</NavLi>
-			<NavLi style="font-size: min(2em, 4vw);color:white;font-weight: bold;rly
-			" href="{base}/booking">booking</NavLi>
+		<div class="flex items-center gap-2 md:order-2">
+			<DarkMode
+				ariaLabel="Toggle dark mode"
+				class="text-white hover:bg-white/10 dark:text-white dark:hover:bg-white/10 background-invert"
+			/>
+			<NavHamburger style="color:white" />
+		</div>
+		<NavUl
+			class="md:order-1"
+			ulClass="bg-black md:bg-transparent dark:bg-black dark:md:bg-transparent"
+		>
+			<NavLi style="font-size: min(2em, 4vw);color:white;font-weight: bold;" href="{base}/epk"
+				>epk</NavLi
+			>
+			<NavLi style="font-size: min(2em, 4vw);color:white;font-weight: bold;" href="{base}/tour"
+				>tour</NavLi
+			>
+			<NavLi style="font-size: min(2em, 4vw);color:white;font-weight: bold;" href="{base}/music"
+				>music</NavLi
+			>
+			<NavLi
+				style="font-size: min(2em, 4vw);color:white;font-weight: bold;rly
+			"
+				href="{base}/booking">booking</NavLi
+			>
 		</NavUl>
 	</Navbar>
 </div>

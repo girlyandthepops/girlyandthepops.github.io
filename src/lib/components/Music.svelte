@@ -46,8 +46,7 @@
 		href={link.url}
 		target="_blank"
 		rel="noopener noreferrer"
-		class="transform transition-colors duration-300 hover:scale-110 hover:text-white"
-        style="color: var(--color-secondary-600);"
+		class="hover:scale-110 music-icon"
 		aria-label={link.name}
 	>
 		<svg class="h-5 w-5" fill="currentColor" viewBox={link.viewBox}>

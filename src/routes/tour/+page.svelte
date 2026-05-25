@@ -340,7 +340,7 @@
 				Interested in having Girly and the Pops perform at your venue?
 			</p>
 			<a
-				href="{base}/contact"
+				href="{base}/booking"
 				class="bg-primary-500 hover:bg-primary-600 inline-block rounded-lg px-6 py-3 font-bold text-white transition-colors duration-200"
 			>
 				Contact Us

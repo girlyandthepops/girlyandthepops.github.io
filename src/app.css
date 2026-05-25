@@ -5,47 +5,51 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @font-face {
-	font-family: "Minecraft";
-	src: url("/fonts/Minecraft.ttf");
+	font-family: 'Minecraft';
+	src: url('/fonts/Minecraft.ttf');
 }
 
 @font-face {
-	font-family: "Pixel Georgia";
-	src: url("/fonts/Pixel Georgia.ttf");
+	font-family: 'Pixel Georgia';
+	src: url('/fonts/Pixel Georgia.ttf');
 }
 
 @font-face {
-	font-family: "Pixel Play";
-	src: url("/fonts/Pixel Play.ttf");
+	font-family: 'Pixel Play';
+	src: url('/fonts/Pixel Play.ttf');
 }
 
 @font-face {
-	font-family: "Win95";
-	src: url("/fonts/W95FA.otf");
+	font-family: 'Win95';
+	src: url('/fonts/W95FA.otf');
 }
 
 @font-face {
-	font-family: "LCDDot-TR";
-	src: url("/fonts/lcd.ttf");
+	font-family: 'LCDDot-TR';
+	src: url('/fonts/lcd.ttf');
 }
 
 @font-face {
-	font-family: "JD LCD Rounded";
-	src: url("/fonts/jd_lcd_rounded.ttf");
+	font-family: 'JD LCD Rounded';
+	src: url('/fonts/jd_lcd_rounded.ttf');
 }
 
 @font-face {
-	font-family: "DinaRemasterII";
-	src: url("/fonts/DinaRemasterII.ttc");
+	font-family: 'DinaRemasterII';
+	src: url('/fonts/DinaRemasterII.ttc');
 }
 
-body {
+body{
 	background-color: aliceblue;
-	background-image: url("/images/runforthehills.jpg");
+	background-image: url('/images/runforthehills.jpg');
 	background-size: max(110vh);
 	background-position: center top;
-	font-family: "PixelPlay";
-	backdrop-filter:invert();
+	font-family: 'PixelPlay';
+}
+
+.dark body {
+	background-color: white;
+	background-blend-mode: difference;
 }
 
 /* unvisited link */
@@ -85,18 +89,65 @@ a.merC:active {
 	--color-secondary-200: #bae6fd;
 	--color-secondary-300: #7dd3fc;
 	--color-secondary-400: #38bdf8;
-	--color-secondary-500: #0ea5e9;
+	--color-secondary-500: #38bdf8;
 	--color-secondary-600: #0284c7;
 	--color-secondary-700: #0369a1;
 	--color-secondary-800: #075985;
 	--color-secondary-900: #0c4a6e;
 }
 
+@theme {
+	--color-dark-primary-50: #164c4a;
+	--color-dark-primary-100: #000e11;
+	--color-dark-primary-200: #001b21;
+	--color-dark-primary-300: #002a33;
+	--color-dark-primary-400: #004352;
+	--color-dark-primary-500: #0186a2;
+	--color-dark-primary-600: #10a9d0;
+	--color-dark-primary-700: #14b0d8;
+	--color-dark-primary-800: #33badd;
+	--color-dark-primary-900: #5ac8e4;
+
+	--color-dark-secondary-50: #0f0600;
+	--color-dark-secondary-100: #1f0d01;
+	--color-dark-secondary-200: #451902;
+	--color-dark-secondary-300: #822c03;
+	--color-dark-secondary-400: #c74207;
+	--color-dark-secondary-500: #c74207;
+	--color-dark-secondary-600: #fd7b38;
+	--color-dark-secondary-700: #fc965e;
+	--color-dark-secondary-800: #f8a67a;
+	--color-dark-secondary-900: #f3b591;
+}
+
+.dark {
+	--color-primary-50: var(--color-dark-primary-50);
+	--color-primary-100: var(--color-dark-primary-100);
+	--color-primary-200: var(--color-dark-primary-200);
+	--color-primary-300: var(--color-dark-primary-300);
+	--color-primary-400: var(--color-dark-primary-400);
+	--color-primary-500: var(--color-dark-primary-500);
+	--color-primary-600: var(--color-dark-primary-600);
+	--color-primary-700: var(--color-dark-primary-700);
+	--color-primary-800: var(--color-dark-primary-800);
+	--color-primary-900: var(--color-dark-primary-900);
+
+	--color-secondary-50: var(--color-dark-secondary-50);
+	--color-secondary-100: var(--color-dark-secondary-100);
+	--color-secondary-200: var(--color-dark-secondary-200);
+	--color-secondary-300: var(--color-dark-secondary-300);
+	--color-secondary-400: var(--color-dark-secondary-400);
+	--color-secondary-500: var(--color-dark-secondary-500);
+	--color-secondary-600: var(--color-dark-secondary-600);
+	--color-secondary-700: var(--color-dark-secondary-700);
+	--color-secondary-800: var(--color-dark-secondary-800);
+	--color-secondary-900: var(--color-dark-secondary-900);
+}
+
 @source "../node_modules/flowbite-svelte/dist";
 @source "../node_modules/flowbite-svelte-icons/dist";
 
 @layer base {
-
 	/* disable chrome cancel button */
 	input[type='search']::-webkit-search-cancel-button {
 		display: none;
@@ -114,7 +165,6 @@ a.merC:active {
 	background-color: rgba(0, 0, 0, 0.35);
 	backdrop-filter: blur(3px);
 }
-
 
 .ep-bg-img {
 	position: absolute;
@@ -256,26 +306,54 @@ a.merC:active {
 	background-color: rgba(0, 0, 0, 0.7);
 }
 
+.front-banner {
+	position: absolute;
+	background-color: white;
+	width: 100%;
+	height: 8vw;
+	top: calc(40vh);
+	overflow: hidden;
+}
+
+.dark .front-banner {
+	position: absolute;
+	background-color: black;
+	width: 100%;
+	height: 8vw;
+	top: calc(40vh);
+	overflow: hidden;
+}
+
 .banner {
 	animation: translateAccross 12s linear infinite;
 	position: absolute;
 	font-size: 8vw;
-	color: white;
-	text-shadow: 0.1em 0.01em 0.2em #38bdf8;
 	font-family: JD LCD Rounded;
 	font-weight: 500;
 	text-overflow: clip;
 	white-space: nowrap;
+	color: black;
+	text-shadow: 0.1em 0.01em 0.2em #38bdf8;
 }
 
-	
+.dark .banner {
+	color: white;
+	text-shadow: 0.1em 0.01em 0.2em #c74207;
+}
+
+.music-icon {
+	color: var(--color-secondary-500);
+}
+
+.dark .music-icon {
+	color: var(--color-dark-secondary-500);
+}
 
 /*
 Source - https://stackoverflow.com/a/16771693
 Posted by Giona, modified by community. See post 'Timeline' for change history
 Retrieved 2026-05-23, License - CC BY-SA 4.0
 */
-
 
 @-moz-keyframes spin {
 	100% {
@@ -317,10 +395,10 @@ Retrieved 2026-05-23, License - CC BY-SA 4.0
 
 @keyframes translateAccross {
 	0% {
-		left: calc(-52vw)
+		left: calc(-52vw);
 	}
 
 	100% {
-		left: calc(100%)
+		left: calc(100%);
 	}
 }

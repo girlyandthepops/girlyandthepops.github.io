@@ -4,7 +4,7 @@
 </script>
 
 <div
-	style="position:absolute;background-color:black;width:100%;height:8vw; top:calc(40vh);overflow:hidden"
+	class="front-banner"
 >
 <h1
 	class="banner"
