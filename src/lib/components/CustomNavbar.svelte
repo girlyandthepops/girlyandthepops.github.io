@@ -44,21 +44,26 @@
 	];
 </script>
 
-<Navbar class="bg-grey" style="border-color:transparent; border-bottom-width:3px;background-color: rgba(0, 0, 0, 0.7);height:min(7.5em, 30vw);z-index:20">
-	<NavBrand href="{base}/"
+<div class="sticky top-0 z-50">
+	<Navbar
+		class="bg-grey"
+		style="border-color:transparent; border-bottom-width:3px;background-color: rgba(0, 0, 0, 0.7);height:min(7.5em, 30vw);z-index:20"
 	>
-		<span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
-			><h1 style="font-size: min(1.5em, 6vw);color:white">girly and the pops</h1>
-			<div class="flex space-x-5">
-				<Music />
-			</div>
-		</span>
-	</NavBrand>
-	<NavHamburger style="color:white"/>
-	<NavUl ulClass="bg-black md:bg-transparent dark:bg-black dark:md:bg-transparent">
-		<NavLi style="font-size: min(2em, 4vw);color:white" href="{base}/epk">EPK</NavLi>
-		<NavLi style="font-size: min(2em, 4vw);color:white" href="{base}/tour">Tour</NavLi>
-		<NavLi style="font-size: min(2em, 4vw);color:white" href="{base}/music">Music</NavLi>
-		<NavLi style="font-size: min(2em, 4vw);color:white" href="{base}/booking">Booking</NavLi>
-	</NavUl>
-</Navbar>
+		<NavBrand href="{base}/">
+			<span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white;"
+				><h1 style="font-size: min(1.5em, 6vw);color:white;text-align:center;transform:translateY(-20%)">girly & the pops</h1>
+				<div class="flex space-x-5">
+					<Music />
+				</div>
+			</span>
+		</NavBrand>
+		<NavHamburger style="color:white" />
+		<NavUl ulClass="bg-black md:bg-transparent dark:bg-black dark:md:bg-transparent">
+			<NavLi style="font-size: min(2em, 4vw);color:white;font-weight: bold;" href="{base}/epk">epk</NavLi>
+			<NavLi style="font-size: min(2em, 4vw);color:white;font-weight: bold;" href="{base}/tour">tour</NavLi>
+			<NavLi style="font-size: min(2em, 4vw);color:white;font-weight: bold;" href="{base}/music">music</NavLi>
+			<NavLi style="font-size: min(2em, 4vw);color:white;font-weight: bold;rly
+			" href="{base}/booking">booking</NavLi>
+		</NavUl>
+	</Navbar>
+</div>

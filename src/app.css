@@ -10,6 +10,16 @@
 }
 
 @font-face {
+	font-family: "Pixel Georgia";
+	src: url("/fonts/Pixel Georgia.ttf");
+}
+
+@font-face {
+	font-family: "Pixel Play";
+	src: url("/fonts/Pixel Play.ttf");
+}
+
+@font-face {
 	font-family: "Win95";
 	src: url("/fonts/W95FA.otf");
 }
@@ -34,6 +44,8 @@ body {
 	background-image: url("/images/runforthehills.jpg");
 	background-size: max(110vh);
 	background-position: center top;
+	font-family: "PixelPlay";
+	backdrop-filter:invert();
 }
 
 /* unvisited link */
@@ -100,7 +112,6 @@ a.merC:active {
 
 .bg-grey {
 	background-color: rgba(0, 0, 0, 0.35);
-	font-family: "Win95";
 	backdrop-filter: blur(3px);
 }
 

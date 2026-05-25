@@ -16,6 +16,83 @@
 
 	];
 
+	const tours = [
+		{
+			date: 'July 31, 2026',
+			time: null,
+			venue: 'Getties',
+			location: 'Providence, RI',
+			additionalInfo: null,
+			poster: null,
+			ticketUrl: null
+		},
+		{
+			date: 'August 06, 2026',
+			time: null,
+			venue: 'Cafe Nine',
+			location: 'New Haven, CT',
+			additionalInfo: null,
+			poster: null,
+			ticketUrl: null
+		},
+		{
+			date: 'August 08, 2026',
+			time: null,
+			venue: 'The Shrine',
+			location: 'New York, NY',
+			additionalInfo: null,
+			poster: null,
+			ticketUrl: null
+		},
+		{
+			date: 'August 12, 2026',
+			time: null,
+			venue: 'The Garage',
+			location: 'Boyds, MD',
+			additionalInfo: null,
+			poster: null,
+			ticketUrl: null
+		},
+		{
+			date: 'August 15, 2026',
+			time: null,
+			venue: 'Roboto',
+			location: 'Pittsburgh, PA',
+			additionalInfo: null,
+			poster: null,
+			ticketUrl: null
+		},
+		{
+			date: 'August 19, 2026',
+			time: null,
+			venue: 'The Baby G',
+			location: 'Toronto, ON',
+			additionalInfo: null,
+			poster: null,
+			ticketUrl: null
+		},
+		{
+			date: 'August 20, 2026',
+			time: null,
+			venue: 'El Dorado',
+			location: 'Troy, NY',
+			additionalInfo: null,
+			poster: null,
+			ticketUrl: null
+		},
+		{
+			date: 'August 23, 2026',
+			time: null,
+			venue: 'Turbo Haüs',
+			location: 'Montreal, QC',
+			additionalInfo: null,
+			poster: null,
+			ticketUrl: null
+		},
+
+	];
+
+
 	const pastShows = [
 		{
 			date: 'May 15, 2026',
@@ -160,7 +237,6 @@
 	<section class="bg-grey mb-12 rounded-lg border-2" style="padding:15px">
 		<h2
 			class="text-secondary-800 border-secondary-400 mb-6 border-b-2 pb-2 text-3xl font-bold"
-			style="font-family: Win95"
 		>
 			Upcoming Shows
 		</h2>
@@ -183,7 +259,7 @@
 			</div>
 		{:else}
 			<div class="bg-grey rounded-lg p-8 text-center">
-				<p class="text-secondary-700 text-xl" style="font-family: Win95;">
+				<p class="text-secondary-700 text-xl" >
 					No upcoming shows scheduled yet. Check back soon!
 				</p>
 			</div>
@@ -194,16 +270,15 @@
 	<section class="bg-grey mb-12 rounded-lg border-2" style="padding:15px; ">
 		<h2
 			class="text-secondary-800 border-secondary-400 mb-6 border-b-2 pb-2 text-3xl font-bold"
-			style="font-family: Win95;"
 		>
 			Tour 2026
 		</h2>
 
-		{#if upcomingShows.length > 0}
+		{#if tours.length > 0}
 			<div class="space-y-4"
  				style="background-color: rgba(0, 0, 0, 0.85); padding: 15px; border-radius: 8px;"
 			>
-				{#each upcomingShows as show}
+				{#each tours as show}
 					<ShowDate
 						date={show.date}
 						time={show.time}
@@ -217,8 +292,8 @@
 			</div>
 		{:else}
 			<div class="bg-grey rounded-lg p-8 text-center">
-				<p class="text-secondary-700 text-xl" style="font-family: Win95;">
-					No upcoming shows scheduled yet. Check back soon!
+				<p class="text-secondary-700 text-xl" >
+					No tour scheduled yet. Check back soon!
 				</p>
 			</div>
 		{/if}
@@ -229,7 +304,6 @@
 	<section class="bg-grey rounded-lg border-2" style="padding:15px">
 		<h2
 			class="text-secondary-800 border-secondary-400 mb-6 border-b-2 pb-2 text-3xl font-bold"
-			style="font-family: Win95;"
 		>
 			Recent Shows
 		</h2>
@@ -249,7 +323,7 @@
 			</div>
 		{:else}
 			<div class="bg-grey rounded-lg p-8 text-center opacity-75">
-				<p class="text-secondary-700 text-xl" style="font-family: Win95;">
+				<p class="text-secondary-700 text-xl" >
 					No past shows to display yet.
 				</p>
 			</div>
@@ -259,7 +333,7 @@
 	<!-- Contact for Booking -->
 	<section class="mt-16 text-center">
 		<div class="bg-secondary-100 border-secondary-300 rounded-lg border-2 p-8">
-			<h3 class="text-secondary-800 mb-4 text-2xl font-bold" style="font-family: Win95;">
+			<h3 class="text-secondary-800 mb-4 text-2xl font-bold" >
 				Book Us for Your Venue
 			</h3>
 			<p class="text-secondary-700 mb-4">
@@ -268,7 +342,6 @@
 			<a
 				href="{base}/contact"
 				class="bg-primary-500 hover:bg-primary-600 inline-block rounded-lg px-6 py-3 font-bold text-white transition-colors duration-200"
-				style="font-family: Win95;"
 			>
 				Contact Us
 			</a>
