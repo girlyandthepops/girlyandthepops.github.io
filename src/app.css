@@ -16,7 +16,7 @@
 
 @font-face {
 	font-family: 'PixelPlay';
-	src: url('/fonts/Pixel Play.ttf');
+	src: url('/fonts/pixelplay.ttf'), url('/fonts/pixelplay.otf');
 }
 
 @font-face {
@@ -31,7 +31,7 @@
 
 @font-face {
 	font-family: 'JD LCD Rounded';
-	src: url('/fonts/jd_lcd_rounded.ttf');
+	src: url('/fonts/jd_lcd_rounded.otf'), url('/fonts/jd_lcd_rounded.otf');
 }
 
 @font-face {
