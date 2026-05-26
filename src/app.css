@@ -15,7 +15,7 @@
 }
 
 @font-face {
-	font-family: 'Pixel Play';
+	font-family: 'PixelPlay';
 	src: url('/fonts/Pixel Play.ttf');
 }
 
@@ -44,7 +44,7 @@ body{
 	background-image: url('/images/runforthehills.jpg');
 	background-size: max(110vh);
 	background-position: center top;
-	font-family: 'Pixel Play';
+	font-family: PixelPlay;
 }
 
 .dark body {
