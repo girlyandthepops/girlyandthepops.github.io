@@ -66,7 +66,7 @@
 			<NavLi style="font-size: min(2em, 4vw);color:white;font-weight: bold;" href="{base}/epk"
 				>epk</NavLi
 			>
-			<NavLi style="font-size: min(2em, 4vw);color:white;font-weight: bold;" href="{base}/tour"
+			<NavLi style="font-size: min(2em, 4vw);color:white;font-weight: bold;" href="{base}/shows"
 				>tour</NavLi
 			>
 			<NavLi style="font-size: min(2em, 4vw);color:white;font-weight: bold;" href="{base}/music"
