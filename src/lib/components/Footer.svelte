@@ -18,7 +18,7 @@
 			</div>
 			<!-- Copyright -->
 			<div class="w-full border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
-				<p>&copy; 2026 girly & the pops. All rights reserved.</p>
+				<p>girly & the pops</p>
 			</div>
 		</div>
 	</div>

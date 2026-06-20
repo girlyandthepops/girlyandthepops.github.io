@@ -73,6 +73,9 @@
 				>music</NavLi
 			>
 			<NavLi
+				style="font-size: min(2em, 4vw);color:white;font-weight: bold;"
+				href="https://girlyandthepops.myshopify.com/">merch</NavLi>
+			<NavLi
 				style="font-size: min(2em, 4vw);color:white;font-weight: bold;rly
 			"
 				href="{base}/booking">booking</NavLi
