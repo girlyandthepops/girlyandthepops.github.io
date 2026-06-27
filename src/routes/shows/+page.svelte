@@ -24,7 +24,7 @@
 			location: 'Providence, RI',
 			additionalInfo: null,
 			poster: null,
-			ticketUrl: null
+			ticketUrl: "https://www.bandsintown.com/t/108433722?came_from=2570&utm_medium=web&utm_source=artist_page&utm_campaign=ticket"
 		},
 		{
 			date: 'August 06, 2026',
@@ -51,7 +51,15 @@
 			location: 'Boyds, MD',
 			additionalInfo: null,
 			poster: null,
-			ticketUrl: null
+			ticketUrl: "https://app.opendate.io/e/the-garage-presents-girly-and-the-pops-costar-glass-island-sir-lando-august-12-2026-718744#tickets?click_id=Q5eICXfcQCatNPfr3-KYsw"
+		},
+		{date: 'August 13, 2026',
+			time: null,
+			venue: 'Abyssinia',
+			location: 'Philadelphia, PA',
+			additionalInfo: null,
+			poster: null,
+			ticketUrl: "https://www.eventbrite.com/e/eliza-claffy-the-breaks-and-girly-the-pops-run-for-the-hills-tour-dc-tickets-1992311315777?aff=aff0bandsintown&bit_userid=${user_id}&comeFrom=2570&artist_event_id=108433795#location"
 		},
 		{
 			date: 'August 15, 2026',
@@ -60,7 +68,7 @@
 			location: 'Pittsburgh, PA',
 			additionalInfo: null,
 			poster: null,
-			ticketUrl: null
+			ticketUrl: "https://tickets.venuepilot.com/e/girly-the-pops-2026-08-15-the-mr-roboto-project-pittsburgh-8c8659"
 		},
 		{
 			date: 'August 19, 2026',
@@ -69,7 +77,7 @@
 			location: 'Toronto, ON',
 			additionalInfo: null,
 			poster: null,
-			ticketUrl: null
+			ticketUrl: "https://dice.fm/event/l8x29w-in-your-walls-g-string-sunniva-and-girly-and-the-pops-19th-aug-the-baby-g-toronto-tickets?pid=530cb286"
 		},
 		{
 			date: 'August 20, 2026',
@@ -78,7 +86,7 @@
 			location: 'Troy, NY',
 			additionalInfo: null,
 			poster: null,
-			ticketUrl: null
+			ticketUrl: "https://www.eventbrite.com/e/ghost-prom-gas-leak-erie-girly-the-pops-live-at-el-dorado-tickets-1991104463048?aff=aff0bandsintown&bit_userid=%24%7Buser_id%7D&comeFrom=2570&artist_event_id=108437502"
 		},
 		{
 			date: 'August 23, 2026',
