@@ -40,7 +40,7 @@
 			time: null,
 			venue: 'The Shrine',
 			location: 'New York, NY',
-			additionalInfo: null,
+			additionalInfo: "free entry",
 			poster: null,
 			ticketUrl: null
 		},
