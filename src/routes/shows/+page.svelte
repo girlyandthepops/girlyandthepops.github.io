@@ -4,16 +4,7 @@
 
 	// Sample show dates - replace with real data
 	const upcomingShows = [
-		{
-			date: 'June 25, 2026',
-			time: '7:00 PM',
-			venue: 'Cantab Lounge',
-			location: 'Cambridge, MA',
-			additionalInfo: null,
-			poster: null,
-			ticketUrl: null
-		},
-
+		
 	];
 
 	const tours = [
@@ -33,7 +24,7 @@
 			location: 'New Haven, CT',
 			additionalInfo: null,
 			poster: null,
-			ticketUrl: null
+			ticketUrl: "https://www.cafenine.com/products/events/girly-the-pops-radiodonta-royal-oaks-wolf-harbor-thursday-8-6-2026-8-00-pm-edt-53504121"
 		},
 		{
 			date: 'August 08, 2026',
@@ -95,13 +86,22 @@
 			location: 'Montreal, QC',
 			additionalInfo: null,
 			poster: null,
-			ticketUrl: null
+			ticketUrl: "https://thepointofsale.com/tickets/runfothehills?lang=en"
 		},
 
 	];
 
 
 	const pastShows = [
+		{
+			date: 'June 25, 2026',
+			time: '7:00 PM',
+			venue: 'Cantab Lounge',
+			location: 'Cambridge, MA',
+			additionalInfo: null,
+			poster: null,
+			ticketUrl: null
+		},
 		{
 			date: 'May 15, 2026',
 			time: 'TBA',
