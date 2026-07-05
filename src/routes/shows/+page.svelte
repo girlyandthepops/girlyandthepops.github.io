@@ -4,7 +4,15 @@
 
 	// Sample show dates - replace with real data
 	const upcomingShows = [
-		
+		{
+			date: 'July 11, 2026',
+			time: "2:00 PM",
+			venue: 'Block Party',
+			location: 'Ridgemont St., Allston',
+			additionalInfo: "Allston Block Party",
+			poster: null,
+			ticketUrl: null
+		},
 	];
 
 	const tours = [
