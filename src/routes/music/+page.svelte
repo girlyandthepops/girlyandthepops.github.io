@@ -5,8 +5,20 @@
 
 <div
 	class="bg-grey rounded-2xl border-2 shadow-2xl"
-	style="margin-bottom:2em;padding:1.5em;margin:auto;width:min(800px,80vw);height:1000px;display:flex;flex-direction:column"
+	style="margin-bottom:2em;padding:1.5em;margin:auto;width:min(800px,80vw);height:1200px;display:flex;flex-direction:column"
 >
+	<iframe
+		data-testid="embed-iframe"
+		style="border-radius:12px"
+		src="https://open.spotify.com/embed/track/0JjzkFkUi3qYZpQcwIwQWh?utm_source=generator&si=a7be0a6fa3fe4b49"
+		width="100%"
+		height="100%"
+		frameBorder="0"
+		allowfullscreen=""
+		allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+		loading="lazy"
+	></iframe>
+	<div style="height:10em"></div>
 	<iframe
 		title="ctrl"
 		data-testid="embed-iframe"

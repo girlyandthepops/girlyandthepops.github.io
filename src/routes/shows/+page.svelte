@@ -5,13 +5,13 @@
 	// Sample show dates - replace with real data
 	const upcomingShows = [
 		{
-			date: 'July 11, 2026',
-			time: "2:00 PM",
-			venue: 'Block Party',
-			location: 'Ridgemont St., Allston',
-			additionalInfo: "Allston Block Party",
+			date: 'July 31, 2026',
+			time: null,
+			venue: 'Getties',
+			location: 'Providence, RI',
+			additionalInfo: null,
 			poster: null,
-			ticketUrl: null
+			ticketUrl: "https://www.bandsintown.com/t/108433722?came_from=2570&utm_medium=web&utm_source=artist_page&utm_campaign=ticket"
 		},
 	];
 
@@ -101,6 +101,24 @@
 
 
 	const pastShows = [
+		{
+			date: 'July 11, 2026',
+			time: "4:00 PM",
+			venue: 'Long Live Roxbury',
+			location: '52 Hampden St., Boston, MA',
+			additionalInfo: "Brewery",
+			poster: null,
+			ticketUrl: null
+		},
+		{
+			date: 'July 11, 2026',
+			time: "2:00 PM",
+			venue: 'Block Party',
+			location: 'Ridgemont St., Allston',
+			additionalInfo: "Allston Block Party",
+			poster: null,
+			ticketUrl: null
+		},
 		{
 			date: 'June 25, 2026',
 			time: '7:00 PM',
