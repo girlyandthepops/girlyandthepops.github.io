@@ -4,15 +4,14 @@
 
 	// Sample show dates - replace with real data
 	const upcomingShows = [
-		{
-			date: 'July 31, 2026',
+		{ date: 'August 06, 2026',
 			time: null,
-			venue: 'Getties',
-			location: 'Providence, RI',
+			venue: 'Cafe Nine',
+			location: 'New Haven, CT',
 			additionalInfo: null,
 			poster: null,
-			ticketUrl: "https://www.bandsintown.com/t/108433722?came_from=2570&utm_medium=web&utm_source=artist_page&utm_campaign=ticket"
-		},
+			ticketUrl: "https://www.cafenine.com/products/events/girly-the-pops-radiodonta-royal-oaks-wolf-harbor-thursday-8-6-2026-8-00-pm-edt-53504121"
+		}
 	];
 
 	const tours = [
@@ -101,6 +100,15 @@
 
 
 	const pastShows = [
+	 	{
+			date: 'July 31, 2026',
+			time: null,
+			venue: 'Getties',
+			location: 'Providence, RI',
+			additionalInfo: null,
+			poster: null,
+			ticketUrl: "https://www.bandsintown.com/t/108433722?came_from=2570&utm_medium=web&utm_source=artist_page&utm_campaign=ticket"
+		},
 		{
 			date: 'July 11, 2026',
 			time: "4:00 PM",
