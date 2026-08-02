@@ -1,1 +1,0 @@
-import"../chunks/NZTpNUN0.js";import"../chunks/D0HybxFM.js";import{o as d,p as o}from"../chunks/2NkGjPDW.js";var r=d('<div class="ciao-frames"><div class="frame" id="one"></div> <div class="frame" id="two"></div> <div class="frame" id="three"></div> <div class="frame" id="four"></div></div>');function m(i){var a=r();o(i,a)}export{m as component};
