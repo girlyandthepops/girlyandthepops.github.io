@@ -4,13 +4,23 @@
 
 	// Sample show dates - replace with real data
 	const upcomingShows = [
-		{ date: 'August 06, 2026',
-			time: null,
+		{
+			date: 'August 06, 2026',
+			time: 'door: 7:00 PM, show: 8:00 PM',
 			venue: 'Cafe Nine',
 			location: 'New Haven, CT',
 			additionalInfo: null,
 			poster: null,
 			ticketUrl: "https://www.cafenine.com/products/events/girly-the-pops-radiodonta-royal-oaks-wolf-harbor-thursday-8-6-2026-8-00-pm-edt-53504121"
+		},
+		{
+			date: 'August 08, 2026',
+			time: 'door: 7:00 PM, show: 8:00 PM',
+			venue: 'The Shrine',
+			location: 'New York, NY',
+			additionalInfo: "free entry: 2271 Adam Clayton Powell Jr Blvd, New York, NY 10030",
+			poster: null,
+			ticketUrl: null 
 		}
 	];
 
@@ -26,7 +36,7 @@
 		},
 		{
 			date: 'August 06, 2026',
-			time: null,
+			time: 'door: 7:00 PM, show: 8:00 PM',
 			venue: 'Cafe Nine',
 			location: 'New Haven, CT',
 			additionalInfo: null,
@@ -35,10 +45,10 @@
 		},
 		{
 			date: 'August 08, 2026',
-			time: null,
+			time: 'door: 7:00 PM, show: 8:00 PM',
 			venue: 'The Shrine',
 			location: 'New York, NY',
-			additionalInfo: "free entry",
+			additionalInfo: "free entry: 2271 Adam Clayton Powell Jr Blvd, New York, NY 10030",
 			poster: null,
 			ticketUrl: null
 		},
