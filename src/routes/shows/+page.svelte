@@ -5,22 +5,23 @@
 	// Sample show dates - replace with real data
 	const upcomingShows = [
 		{
-			date: 'August 06, 2026',
-			time: 'door: 7:00 PM, show: 8:00 PM',
-			venue: 'Cafe Nine',
-			location: 'New Haven, CT',
-			additionalInfo: null,
-			poster: null,
-			ticketUrl: "https://www.cafenine.com/products/events/girly-the-pops-radiodonta-royal-oaks-wolf-harbor-thursday-8-6-2026-8-00-pm-edt-53504121"
-		},
-		{
 			date: 'August 08, 2026',
 			time: 'door: 7:00 PM, show: 8:00 PM',
 			venue: 'The Shrine',
 			location: 'New York, NY',
-			additionalInfo: "free entry: 2271 Adam Clayton Powell Jr Blvd, New York, NY 10030",
+			additionalInfo: 'free entry: 2271 Adam Clayton Powell Jr Blvd, New York, NY 10030',
 			poster: null,
-			ticketUrl: null 
+			ticketUrl: null
+		},
+		{
+			date: 'August 12, 2026',
+			time: null,
+			venue: 'The Pocket',
+			location: 'Washington, DC',
+			additionalInfo: null,
+			poster: null,
+			ticketUrl:
+				'https://app.opendate.io/e/the-garage-presents-girly-and-the-pops-costar-glass-island-sir-lando-august-12-2026-718744#tickets?click_id=Q5eICXfcQCatNPfr3-KYsw'
 		}
 	];
 
@@ -32,7 +33,8 @@
 			location: 'Providence, RI',
 			additionalInfo: null,
 			poster: null,
-			ticketUrl: "https://www.bandsintown.com/t/108433722?came_from=2570&utm_medium=web&utm_source=artist_page&utm_campaign=ticket"
+			ticketUrl:
+				'https://www.bandsintown.com/t/108433722?came_from=2570&utm_medium=web&utm_source=artist_page&utm_campaign=ticket'
 		},
 		{
 			date: 'August 06, 2026',
@@ -41,33 +43,37 @@
 			location: 'New Haven, CT',
 			additionalInfo: null,
 			poster: null,
-			ticketUrl: "https://www.cafenine.com/products/events/girly-the-pops-radiodonta-royal-oaks-wolf-harbor-thursday-8-6-2026-8-00-pm-edt-53504121"
+			ticketUrl:
+				'https://www.cafenine.com/products/events/girly-the-pops-radiodonta-royal-oaks-wolf-harbor-thursday-8-6-2026-8-00-pm-edt-53504121'
 		},
 		{
 			date: 'August 08, 2026',
 			time: 'door: 7:00 PM, show: 8:00 PM',
 			venue: 'The Shrine',
 			location: 'New York, NY',
-			additionalInfo: "free entry: 2271 Adam Clayton Powell Jr Blvd, New York, NY 10030",
+			additionalInfo: 'free entry: 2271 Adam Clayton Powell Jr Blvd, New York, NY 10030',
 			poster: null,
 			ticketUrl: null
 		},
 		{
 			date: 'August 12, 2026',
 			time: null,
-			venue: 'The Garage',
-			location: 'Boyds, MD',
+			venue: 'The Pocket',
+			location: 'Washington, DC',
 			additionalInfo: null,
 			poster: null,
-			ticketUrl: "https://app.opendate.io/e/the-garage-presents-girly-and-the-pops-costar-glass-island-sir-lando-august-12-2026-718744#tickets?click_id=Q5eICXfcQCatNPfr3-KYsw"
+			ticketUrl:
+				'https://app.opendate.io/e/the-garage-presents-girly-and-the-pops-costar-glass-island-sir-lando-august-12-2026-718744#tickets?click_id=Q5eICXfcQCatNPfr3-KYsw'
 		},
-		{date: 'August 13, 2026',
+		{
+			date: 'August 13, 2026',
 			time: null,
 			venue: 'Abyssinia',
 			location: 'Philadelphia, PA',
 			additionalInfo: null,
 			poster: null,
-			ticketUrl: "https://www.eventbrite.com/e/eliza-claffy-the-breaks-and-girly-the-pops-run-for-the-hills-tour-dc-tickets-1992311315777?aff=aff0bandsintown&bit_userid=${user_id}&comeFrom=2570&artist_event_id=108433795#location"
+			ticketUrl:
+				'https://www.eventbrite.com/e/eliza-claffy-the-breaks-and-girly-the-pops-run-for-the-hills-tour-dc-tickets-1992311315777?aff=aff0bandsintown&bit_userid=${user_id}&comeFrom=2570&artist_event_id=108433795#location'
 		},
 		{
 			date: 'August 15, 2026',
@@ -76,7 +82,8 @@
 			location: 'Pittsburgh, PA',
 			additionalInfo: null,
 			poster: null,
-			ticketUrl: "https://tickets.venuepilot.com/e/girly-the-pops-2026-08-15-the-mr-roboto-project-pittsburgh-8c8659"
+			ticketUrl:
+				'https://tickets.venuepilot.com/e/girly-the-pops-2026-08-15-the-mr-roboto-project-pittsburgh-8c8659'
 		},
 		{
 			date: 'August 19, 2026',
@@ -85,7 +92,8 @@
 			location: 'Toronto, ON',
 			additionalInfo: null,
 			poster: null,
-			ticketUrl: "https://dice.fm/event/l8x29w-in-your-walls-g-string-sunniva-and-girly-and-the-pops-19th-aug-the-baby-g-toronto-tickets?pid=530cb286"
+			ticketUrl:
+				'https://dice.fm/event/l8x29w-in-your-walls-g-string-sunniva-and-girly-and-the-pops-19th-aug-the-baby-g-toronto-tickets?pid=530cb286'
 		},
 		{
 			date: 'August 20, 2026',
@@ -94,7 +102,8 @@
 			location: 'Troy, NY',
 			additionalInfo: null,
 			poster: null,
-			ticketUrl: "https://www.eventbrite.com/e/ghost-prom-gas-leak-erie-girly-the-pops-live-at-el-dorado-tickets-1991104463048?aff=aff0bandsintown&bit_userid=%24%7Buser_id%7D&comeFrom=2570&artist_event_id=108437502"
+			ticketUrl:
+				'https://www.eventbrite.com/e/ghost-prom-gas-leak-erie-girly-the-pops-live-at-el-dorado-tickets-1991104463048?aff=aff0bandsintown&bit_userid=%24%7Buser_id%7D&comeFrom=2570&artist_event_id=108437502'
 		},
 		{
 			date: 'August 23, 2026',
@@ -103,37 +112,46 @@
 			location: 'Montreal, QC',
 			additionalInfo: null,
 			poster: null,
-			ticketUrl: "https://thepointofsale.com/tickets/runfothehills?lang=en"
-		},
-
+			ticketUrl: 'https://thepointofsale.com/tickets/runfothehills?lang=en'
+		}
 	];
 
-
 	const pastShows = [
-	 	{
+		{
+			date: 'August 06, 2026',
+			time: 'door: 7:00 PM, show: 8:00 PM',
+			venue: 'Cafe Nine',
+			location: 'New Haven, CT',
+			additionalInfo: null,
+			poster: null,
+			ticketUrl:
+				'https://www.cafenine.com/products/events/girly-the-pops-radiodonta-royal-oaks-wolf-harbor-thursday-8-6-2026-8-00-pm-edt-53504121'
+		},
+		{
 			date: 'July 31, 2026',
 			time: null,
 			venue: 'Getties',
 			location: 'Providence, RI',
 			additionalInfo: null,
 			poster: null,
-			ticketUrl: "https://www.bandsintown.com/t/108433722?came_from=2570&utm_medium=web&utm_source=artist_page&utm_campaign=ticket"
+			ticketUrl:
+				'https://www.bandsintown.com/t/108433722?came_from=2570&utm_medium=web&utm_source=artist_page&utm_campaign=ticket'
 		},
 		{
 			date: 'July 11, 2026',
-			time: "4:00 PM",
+			time: '4:00 PM',
 			venue: 'Long Live Roxbury',
 			location: '52 Hampden St., Boston, MA',
-			additionalInfo: "Brewery",
+			additionalInfo: 'Brewery',
 			poster: null,
 			ticketUrl: null
 		},
 		{
 			date: 'July 11, 2026',
-			time: "2:00 PM",
+			time: '2:00 PM',
 			venue: 'Block Party',
 			location: 'Ridgemont St., Allston',
-			additionalInfo: "Allston Block Party",
+			additionalInfo: 'Allston Block Party',
 			poster: null,
 			ticketUrl: null
 		},
@@ -152,7 +170,7 @@
 			venue: 'Davis Square',
 			location: 'Somerville, MA',
 			additionalInfo: 'with Battlemode - details TBA',
-			poster: "$lib/../images/down_in_davis.jpg",
+			poster: '$lib/../images/down_in_davis.jpg',
 			ticketUrl: null
 		},
 		{
@@ -161,7 +179,7 @@
 			venue: 'Pasta Planet',
 			location: 'DM for address',
 			additionalInfo: null,
-			poster: "$lib/../images/pasta_05_2026.jpg",
+			poster: '$lib/../images/pasta_05_2026.jpg',
 			ticketUrl: null
 		},
 		{
@@ -287,15 +305,14 @@
 <div class="container mx-auto max-w-4xl px-4 py-8">
 	<!-- Upcoming Shows Section -->
 	<section class="bg-grey mb-12 rounded-lg border-2" style="padding:15px">
-		<h2
-			class="text-secondary-800 border-secondary-400 mb-6 border-b-2 pb-2 text-3xl font-bold"
-		>
+		<h2 class="text-secondary-800 border-secondary-400 mb-6 border-b-2 pb-2 text-3xl font-bold">
 			Upcoming Shows
 		</h2>
 
 		{#if upcomingShows.length > 0}
-			<div class="space-y-4"
- 				style="background-color: rgba(0, 0, 0, 0.85); padding: 15px; border-radius: 8px;"
+			<div
+				class="space-y-4"
+				style="background-color: rgba(0, 0, 0, 0.85); padding: 15px; border-radius: 8px;"
 			>
 				{#each upcomingShows as show}
 					<ShowDate
@@ -311,24 +328,21 @@
 			</div>
 		{:else}
 			<div class="bg-grey rounded-lg p-8 text-center">
-				<p class="text-secondary-700 text-xl" >
-					No upcoming shows scheduled yet. Check back soon!
-				</p>
+				<p class="text-secondary-700 text-xl">No upcoming shows scheduled yet. Check back soon!</p>
 			</div>
 		{/if}
 	</section>
 
 	<!-- Tour 2026-->
 	<section class="bg-grey mb-12 rounded-lg border-2" style="padding:15px; ">
-		<h2
-			class="text-secondary-800 border-secondary-400 mb-6 border-b-2 pb-2 text-3xl font-bold"
-		>
+		<h2 class="text-secondary-800 border-secondary-400 mb-6 border-b-2 pb-2 text-3xl font-bold">
 			Tour 2026
 		</h2>
 
 		{#if tours.length > 0}
-			<div class="space-y-4"
- 				style="background-color: rgba(0, 0, 0, 0.85); padding: 15px; border-radius: 8px;"
+			<div
+				class="space-y-4"
+				style="background-color: rgba(0, 0, 0, 0.85); padding: 15px; border-radius: 8px;"
 			>
 				{#each tours as show}
 					<ShowDate
@@ -344,24 +358,22 @@
 			</div>
 		{:else}
 			<div class="bg-grey rounded-lg p-8 text-center">
-				<p class="text-secondary-700 text-xl" >
-					No tour scheduled yet. Check back soon!
-				</p>
+				<p class="text-secondary-700 text-xl">No tour scheduled yet. Check back soon!</p>
 			</div>
 		{/if}
 	</section>
 
-
 	<!-- Past Shows Section -->
 	<section class="bg-grey rounded-lg border-2" style="padding:15px">
-		<h2
-			class="text-secondary-800 border-secondary-400 mb-6 border-b-2 pb-2 text-3xl font-bold"
-		>
+		<h2 class="text-secondary-800 border-secondary-400 mb-6 border-b-2 pb-2 text-3xl font-bold">
 			Recent Shows
 		</h2>
 
 		{#if pastShows.length > 0}
-			<div class="space-y-4" style="background-color: rgba(0, 0, 0, 0.85); padding: 15px; border-radius: 8px;">
+			<div
+				class="space-y-4"
+				style="background-color: rgba(0, 0, 0, 0.85); padding: 15px; border-radius: 8px;"
+			>
 				{#each pastShows as show}
 					<ShowDate
 						date={show.date}
@@ -375,9 +387,7 @@
 			</div>
 		{:else}
 			<div class="bg-grey rounded-lg p-8 text-center opacity-75">
-				<p class="text-secondary-700 text-xl" >
-					No past shows to display yet.
-				</p>
+				<p class="text-secondary-700 text-xl">No past shows to display yet.</p>
 			</div>
 		{/if}
 	</section>
@@ -385,9 +395,7 @@
 	<!-- Contact for Booking -->
 	<section class="mt-16 text-center">
 		<div class="bg-secondary-100 border-secondary-300 rounded-lg border-2 p-8">
-			<h3 class="text-secondary-800 mb-4 text-2xl font-bold" >
-				Book Us for Your Venue
-			</h3>
+			<h3 class="text-secondary-800 mb-4 text-2xl font-bold">Book Us for Your Venue</h3>
 			<p class="text-secondary-700 mb-4">
 				Interested in having Girly and the Pops perform at your venue?
 			</p>
