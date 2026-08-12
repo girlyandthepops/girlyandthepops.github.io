@@ -5,15 +5,6 @@
 	// Sample show dates - replace with real data
 	const upcomingShows = [
 		{
-			date: 'August 08, 2026',
-			time: 'door: 7:00 PM, show: 8:00 PM',
-			venue: 'The Shrine',
-			location: 'New York, NY',
-			additionalInfo: 'free entry: 2271 Adam Clayton Powell Jr Blvd, New York, NY 10030',
-			poster: null,
-			ticketUrl: null
-		},
-		{
 			date: 'August 12, 2026',
 			time: null,
 			venue: 'The Pocket',
@@ -22,7 +13,17 @@
 			poster: null,
 			ticketUrl:
 				'https://app.opendate.io/e/the-garage-presents-girly-and-the-pops-costar-glass-island-sir-lando-august-12-2026-718744#tickets?click_id=Q5eICXfcQCatNPfr3-KYsw'
-		}
+		},
+		{
+			date: 'August 13, 2026',
+			time: null,
+			venue: 'Abyssinia',
+			location: 'Philadelphia, PA',
+			additionalInfo: null,
+			poster: null,
+			ticketUrl:
+				'https://www.eventbrite.com/e/eliza-claffy-the-breaks-and-girly-the-pops-run-for-the-hills-tour-dc-tickets-1992311315777?aff=aff0bandsintown&bit_userid=${user_id}&comeFrom=2570&artist_event_id=108433795#location'
+		},
 	];
 
 	const tours = [
@@ -117,6 +118,15 @@
 	];
 
 	const pastShows = [
+		{
+			date: 'August 08, 2026',
+			time: 'door: 7:00 PM, show: 8:00 PM',
+			venue: 'The Shrine',
+			location: 'New York, NY',
+			additionalInfo: 'free entry: 2271 Adam Clayton Powell Jr Blvd, New York, NY 10030',
+			poster: null,
+			ticketUrl: null
+		},
 		{
 			date: 'August 06, 2026',
 			time: 'door: 7:00 PM, show: 8:00 PM',
