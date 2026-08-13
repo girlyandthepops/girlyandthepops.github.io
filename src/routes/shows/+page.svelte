@@ -5,15 +5,26 @@
 	// Sample show dates - replace with real data
 	const upcomingShows = [
 		{
-			date: 'August 12, 2026',
+			date: 'August 15, 2026',
 			time: null,
-			venue: 'The Pocket',
-			location: 'Washington, DC',
+			venue: 'Roboto',
+			location: 'Pittsburgh, PA',
 			additionalInfo: null,
 			poster: null,
 			ticketUrl:
-				'https://app.opendate.io/e/the-garage-presents-girly-and-the-pops-costar-glass-island-sir-lando-august-12-2026-718744#tickets?click_id=Q5eICXfcQCatNPfr3-KYsw'
+				'https://tickets.venuepilot.com/e/girly-the-pops-2026-08-15-the-mr-roboto-project-pittsburgh-8c8659'
 		},
+		{
+			date: 'August 19, 2026',
+			time: null,
+			venue: 'The Baby G',
+			location: 'Toronto, ON',
+			additionalInfo: null,
+			poster: null,
+			ticketUrl:
+				'https://dice.fm/event/l8x29w-in-your-walls-g-string-sunniva-and-girly-and-the-pops-19th-aug-the-baby-g-toronto-tickets?pid=530cb286'
+		},
+		
 		{
 			date: 'August 13, 2026',
 			time: null,
@@ -118,6 +129,16 @@
 	];
 
 	const pastShows = [
+		{
+			date: 'August 12, 2026',
+			time: null,
+			venue: 'The Pocket',
+			location: 'Washington, DC',
+			additionalInfo: null,
+			poster: null,
+			ticketUrl:
+				'https://app.opendate.io/e/the-garage-presents-girly-and-the-pops-costar-glass-island-sir-lando-august-12-2026-718744#tickets?click_id=Q5eICXfcQCatNPfr3-KYsw'
+		},
 		{
 			date: 'August 08, 2026',
 			time: 'door: 7:00 PM, show: 8:00 PM',
