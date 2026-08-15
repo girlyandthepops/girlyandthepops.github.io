@@ -23,18 +23,7 @@
 			poster: null,
 			ticketUrl:
 				'https://dice.fm/event/l8x29w-in-your-walls-g-string-sunniva-and-girly-and-the-pops-19th-aug-the-baby-g-toronto-tickets?pid=530cb286'
-		},
-		
-		{
-			date: 'August 13, 2026',
-			time: null,
-			venue: 'Abyssinia',
-			location: 'Philadelphia, PA',
-			additionalInfo: null,
-			poster: null,
-			ticketUrl:
-				'https://www.eventbrite.com/e/eliza-claffy-the-breaks-and-girly-the-pops-run-for-the-hills-tour-dc-tickets-1992311315777?aff=aff0bandsintown&bit_userid=${user_id}&comeFrom=2570&artist_event_id=108433795#location'
-		},
+		}
 	];
 
 	const tours = [
@@ -129,6 +118,16 @@
 	];
 
 	const pastShows = [
+		{
+			date: 'August 13, 2026',
+			time: null,
+			venue: 'Abyssinia',
+			location: 'Philadelphia, PA',
+			additionalInfo: null,
+			poster: null,
+			ticketUrl:
+				'https://www.eventbrite.com/e/eliza-claffy-the-breaks-and-girly-the-pops-run-for-the-hills-tour-dc-tickets-1992311315777?aff=aff0bandsintown&bit_userid=${user_id}&comeFrom=2570&artist_event_id=108433795#location'
+		},
 		{
 			date: 'August 12, 2026',
 			time: null,
