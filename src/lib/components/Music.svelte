@@ -37,9 +37,16 @@
 			url: 'https://tidal.com/browse/artist/64220557',
 			viewBox: '0 0 24 24',
 			icon: 'M5.333 6l3.334 3.25l3.333 -3.25l3.333 3.25l3.334 -3.25l3.333 3.25l-3.333 3.25l-3.334 -3.25l-3.333 3.25l3.333 3.25l-3.333 3.25l-3.333 -3.25l3.333 -3.25l-3.333 -3.25l-3.334 3.25l-3.333 -3.25z'
-		}
+		},
+		{
+			name: 'Bandcamp',
+			url: 'https://girlyandthepops.bandcamp.com/follow_me',
+			viewBox: '0 0 16 16',
+			icon: 'M0 12.5 4.958 3.5H16l-4.959 9H0z' 
+		},
 	];
 </script>
+
 
 {#each socialLinks as link}
 	<a

@@ -5,16 +5,6 @@
 	// Sample show dates - replace with real data
 	const upcomingShows = [
 		{
-			date: 'August 15, 2026',
-			time: null,
-			venue: 'Roboto',
-			location: 'Pittsburgh, PA',
-			additionalInfo: null,
-			poster: null,
-			ticketUrl:
-				'https://tickets.venuepilot.com/e/girly-the-pops-2026-08-15-the-mr-roboto-project-pittsburgh-8c8659'
-		},
-		{
 			date: 'August 19, 2026',
 			time: null,
 			venue: 'The Baby G',
@@ -23,6 +13,25 @@
 			poster: null,
 			ticketUrl:
 				'https://dice.fm/event/l8x29w-in-your-walls-g-string-sunniva-and-girly-and-the-pops-19th-aug-the-baby-g-toronto-tickets?pid=530cb286'
+		},
+		{
+			date: 'August 20, 2026',
+			time: null,
+			venue: 'El Dorado',
+			location: 'Troy, NY',
+			additionalInfo: null,
+			poster: null,
+			ticketUrl:
+				'https://www.eventbrite.com/e/ghost-prom-gas-leak-erie-girly-the-pops-live-at-el-dorado-tickets-1991104463048?aff=aff0bandsintown&bit_userid=%24%7Buser_id%7D&comeFrom=2570&artist_event_id=108437502'
+		},
+		{
+			date: 'August 23, 2026',
+			time: null,
+			venue: 'Turbo Haüs',
+			location: 'Montreal, QC',
+			additionalInfo: null,
+			poster: null,
+			ticketUrl: 'https://thepointofsale.com/tickets/runfothehills?lang=en'
 		}
 	];
 
@@ -118,6 +127,16 @@
 	];
 
 	const pastShows = [
+		{
+			date: 'August 15, 2026',
+			time: null,
+			venue: 'Roboto',
+			location: 'Pittsburgh, PA',
+			additionalInfo: null,
+			poster: null,
+			ticketUrl:
+				'https://tickets.venuepilot.com/e/girly-the-pops-2026-08-15-the-mr-roboto-project-pittsburgh-8c8659'
+		},
 		{
 			date: 'August 13, 2026',
 			time: null,
