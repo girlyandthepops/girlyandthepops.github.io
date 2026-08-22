@@ -5,26 +5,6 @@
 	// Sample show dates - replace with real data
 	const upcomingShows = [
 		{
-			date: 'August 19, 2026',
-			time: null,
-			venue: 'The Baby G',
-			location: 'Toronto, ON',
-			additionalInfo: null,
-			poster: null,
-			ticketUrl:
-				'https://dice.fm/event/l8x29w-in-your-walls-g-string-sunniva-and-girly-and-the-pops-19th-aug-the-baby-g-toronto-tickets?pid=530cb286'
-		},
-		{
-			date: 'August 20, 2026',
-			time: null,
-			venue: 'El Dorado',
-			location: 'Troy, NY',
-			additionalInfo: null,
-			poster: null,
-			ticketUrl:
-				'https://www.eventbrite.com/e/ghost-prom-gas-leak-erie-girly-the-pops-live-at-el-dorado-tickets-1991104463048?aff=aff0bandsintown&bit_userid=%24%7Buser_id%7D&comeFrom=2570&artist_event_id=108437502'
-		},
-		{
 			date: 'August 23, 2026',
 			time: null,
 			venue: 'Turbo Haüs',
@@ -127,6 +107,27 @@
 	];
 
 	const pastShows = [
+		{
+			date: 'August 20, 2026',
+			time: null,
+			venue: 'El Dorado',
+			location: 'Troy, NY',
+			additionalInfo: null,
+			poster: null,
+			ticketUrl:
+				'https://www.eventbrite.com/e/ghost-prom-gas-leak-erie-girly-the-pops-live-at-el-dorado-tickets-1991104463048?aff=aff0bandsintown&bit_userid=%24%7Buser_id%7D&comeFrom=2570&artist_event_id=108437502'
+		},
+		{
+			date: 'August 19, 2026',
+			time: null,
+			venue: 'The Baby G',
+			location: 'Toronto, ON',
+			additionalInfo: null,
+			poster: null,
+			ticketUrl:
+				'https://dice.fm/event/l8x29w-in-your-walls-g-string-sunniva-and-girly-and-the-pops-19th-aug-the-baby-g-toronto-tickets?pid=530cb286'
+		},
+
 		{
 			date: 'August 15, 2026',
 			time: null,
