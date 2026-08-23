@@ -1,1 +1,0 @@
-import"../chunks/NZTpNUN0.js";import"../chunks/D0HybxFM.js";import{o as t,p as n}from"../chunks/2NkGjPDW.js";var r=t('<div class="front-banner"><h1 class="banner" style="top:-2vw">RUN FOR THE HILLS</h1> <h1 class="banner" style="animation-delay: 6000ms;left:-52vw;top:-2vw">RUN FOR THE HILLS</h1></div>');function i(a){var o=r();n(a,o)}export{i as component};
