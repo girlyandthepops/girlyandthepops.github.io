@@ -52,6 +52,17 @@ body{
 	background-blend-mode: difference;
 }
 
+body:has(.featured-show) {
+	background-image: linear-gradient(#000, #000), url('/images/runforthehills.jpg');
+	background-size: cover, max(110vh);
+	background-position: center, center top;
+	background-blend-mode: saturation, normal;
+}
+
+.dark body:has(.featured-show) {
+	background-blend-mode: saturation, normal;
+}
+
 /* unvisited link */
 a.merC:link {
 	color: var(--color-secondary-500);
