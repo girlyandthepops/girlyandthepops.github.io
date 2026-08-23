@@ -29,7 +29,7 @@
 			location: 'Boston, MA',
 			additionalInfo: null,
 			poster: '$lib/../images/release_2026.jpg',
-			ticketUrl: null
+			ticketUrl: 'https://www.eventbrite.com/checkout-external?eid=1994986385984'
 		}
 	];
 
