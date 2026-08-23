@@ -10,8 +10,26 @@
 			venue: 'Turbo Haüs',
 			location: 'Montreal, QC',
 			additionalInfo: null,
-			poster: null,
+			poster: '$lib/../images/turbo_haus_2026.jpg',
 			ticketUrl: 'https://thepointofsale.com/tickets/runfothehills?lang=en'
+		},
+		{
+			date: 'August 27, 2026',
+			time: null,
+			venue: "Ralph's Rock Diner",
+			location: 'Worcester, MA',
+			additionalInfo: null,
+			poster: '$lib/../images/worcester_2026.jpg',
+			ticketUrl: null
+		},
+		{
+			date: 'August 28, 2026',
+			time: null,
+			venue: 'The Jungle',
+			location: 'Boston, MA',
+			additionalInfo: null,
+			poster: '$lib/../images/release_2026.jpg',
+			ticketUrl: null
 		}
 	];
 
@@ -103,7 +121,16 @@
 			additionalInfo: null,
 			poster: null,
 			ticketUrl: 'https://thepointofsale.com/tickets/runfothehills?lang=en'
-		}
+		},
+		{
+			date: 'August 27, 2026',
+			time: null,
+			venue: "Ralph's Rock Diner",
+			location: 'Worcester, MA',
+			additionalInfo: null,
+			poster: null,
+			ticketUrl: null
+		},
 	];
 
 	const pastShows = [
