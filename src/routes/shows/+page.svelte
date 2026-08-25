@@ -3,16 +3,7 @@
 	import { base } from '$app/paths';
 
 	// Sample show dates - replace with real data
-	const upcomingShows = [
-		{
-			date: 'August 23, 2026',
-			time: null,
-			venue: 'Turbo Haüs',
-			location: 'Montreal, QC',
-			additionalInfo: null,
-			poster: '$lib/../images/turbo_haus_2026.jpg',
-			ticketUrl: 'https://thepointofsale.com/tickets/runfothehills?lang=en'
-		},
+	const upcomingShows = [		
 		{
 			date: 'August 27, 2026',
 			time: null,
@@ -134,6 +125,15 @@
 	];
 
 	const pastShows = [
+		{
+			date: 'August 23, 2026',
+			time: null,
+			venue: 'Turbo Haüs',
+			location: 'Montreal, QC',
+			additionalInfo: null,
+			poster: '$lib/../images/turbo_haus_2026.jpg',
+			ticketUrl: 'https://thepointofsale.com/tickets/runfothehills?lang=en'
+		},
 		{
 			date: 'August 20, 2026',
 			time: null,
