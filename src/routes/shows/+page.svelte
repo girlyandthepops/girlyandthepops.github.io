@@ -5,26 +5,35 @@
 	// Sample show dates - replace with real data
 	const upcomingShows = [		
 		{
-			date: 'August 27, 2026',
-			time: null,
-			venue: "Ralph's Rock Diner",
-			location: 'Worcester, MA',
+			date: 'September 12, 2026',
+			time: '8:00 PM',
+			venue: 'The Middle East (upstairs)',
+			location: 'Cambridge, MA',
 			additionalInfo: null,
-			poster: '$lib/../images/worcester_2026.jpg',
-			ticketUrl: null
+			poster: '$lib/../images/middle_east_2026.jpg',
+			ticketUrl: "https://www.ticketweb.com/event/fm-collective-the-funky-internationals-middle-east-upstairs-tickets/14291594?pl=mideastclub&REFID=clientsitewp"
 		},
 		{
-			date: 'August 28, 2026',
-			time: null,
-			venue: 'The Jungle',
-			location: 'Boston, MA',
+			date: 'August 13, 2026',
+			time: 'door: 7:00 PM, show: 8:00 PM',
+			venue: 'Obrien\'s Pub',
+			location: 'Allston, MA',
 			additionalInfo: null,
-			poster: '$lib/../images/release_2026.jpg',
-			ticketUrl: 'https://www.eventbrite.com/checkout-external?eid=1994986385984'
+			poster: '$lib/../images/obriens_2026.jpeg',
+			ticketUrl: 'https://obrienspubboston.com/show/fae-feral-subcutaneous-sky-swallowed-girly-and-the-pops/'
+		},
+		{
+			date: 'August 18, 2026',
+			time: null,
+			venue: 'The Fifth Column',
+			location: 'Contact us for address',
+			additionalInfo: null,
+			poster: null,
+			ticketUrl: null 
 		}
 	];
 
-	const tours = [
+	const tours_2026 = [
 		{
 			date: 'July 31, 2026',
 			time: null,
@@ -125,6 +134,24 @@
 	];
 
 	const pastShows = [
+		{
+			date: 'August 28, 2026',
+			time: null,
+			venue: 'The Jungle',
+			location: 'Boston, MA',
+			additionalInfo: null,
+			poster: '$lib/../images/release_2026.jpg',
+			ticketUrl: 'https://www.eventbrite.com/checkout-external?eid=1994986385984'
+		},
+		{
+			date: 'August 27, 2026',
+			time: null,
+			venue: "Ralph's Rock Diner",
+			location: 'Worcester, MA',
+			additionalInfo: null,
+			poster: '$lib/../images/worcester_2026.jpg',
+			ticketUrl: null
+		},
 		{
 			date: 'August 23, 2026',
 			time: null,
@@ -409,37 +436,6 @@
 			</div>
 		{/if}
 	</section>
-
-	<!-- Tour 2026-->
-	<section class="bg-grey mb-12 rounded-lg border-2" style="padding:15px; ">
-		<h2 class="text-secondary-800 border-secondary-400 mb-6 border-b-2 pb-2 text-3xl font-bold">
-			Tour 2026
-		</h2>
-
-		{#if tours.length > 0}
-			<div
-				class="space-y-4"
-				style="background-color: rgba(0, 0, 0, 0.85); padding: 15px; border-radius: 8px;"
-			>
-				{#each tours as show}
-					<ShowDate
-						date={show.date}
-						time={show.time}
-						venue={show.venue}
-						location={show.location}
-						additionalInfo={show.additionalInfo}
-						posterUrl={show.poster}
-						ticketUrl={show.ticketUrl}
-					/>
-				{/each}
-			</div>
-		{:else}
-			<div class="bg-grey rounded-lg p-8 text-center">
-				<p class="text-secondary-700 text-xl">No tour scheduled yet. Check back soon!</p>
-			</div>
-		{/if}
-	</section>
-
 	<!-- Past Shows Section -->
 	<section class="bg-grey rounded-lg border-2" style="padding:15px">
 		<h2 class="text-secondary-800 border-secondary-400 mb-6 border-b-2 pb-2 text-3xl font-bold">
@@ -468,6 +464,38 @@
 			</div>
 		{/if}
 	</section>
+
+	<!-- Tour 2026-->
+	<!--- <section class="bg-grey mb-12 rounded-lg border-2" style="padding:15px; ">
+		<h2 class="text-secondary-800 border-secondary-400 mb-6 border-b-2 pb-2 text-3xl font-bold">
+			Tour 2026
+		</h2>
+
+		{#if tours_2026.length > 0}
+			<div
+				class="space-y-4"
+				style="background-color: rgba(0, 0, 0, 0.85); padding: 15px; border-radius: 8px;"
+			>
+				{#each tours_2026 as show}
+					<ShowDate
+						date={show.date}
+						time={show.time}
+						venue={show.venue}
+						location={show.location}
+						additionalInfo={show.additionalInfo}
+						posterUrl={show.poster}
+						ticketUrl={show.ticketUrl}
+					/>
+				{/each}
+			</div>
+		{:else}
+			<div class="bg-grey rounded-lg p-8 text-center">
+				<p class="text-secondary-700 text-xl">No tour scheduled yet. Check back soon!</p>
+			</div>
+		{/if}
+	</section> -->
+
+
 
 	<!-- Contact for Booking -->
 	<section class="mt-16 text-center">
