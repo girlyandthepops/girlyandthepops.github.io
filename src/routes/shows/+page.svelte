@@ -3,35 +3,7 @@
 	import { base } from '$app/paths';
 
 	// Sample show dates - replace with real data
-	const upcomingShows = [		
-		{
-			date: 'September 12, 2026',
-			time: '8:00 PM',
-			venue: 'The Middle East (upstairs)',
-			location: 'Cambridge, MA',
-			additionalInfo: null,
-			poster: '$lib/../images/middle_east_2026.jpg',
-			ticketUrl: "https://www.ticketweb.com/event/fm-collective-the-funky-internationals-middle-east-upstairs-tickets/14291594?pl=mideastclub&REFID=clientsitewp"
-		},
-		{
-			date: 'August 13, 2026',
-			time: 'door: 7:00 PM, show: 8:00 PM',
-			venue: 'Obrien\'s Pub',
-			location: 'Allston, MA',
-			additionalInfo: null,
-			poster: '$lib/../images/obriens_2026.jpeg',
-			ticketUrl: 'https://obrienspubboston.com/show/fae-feral-subcutaneous-sky-swallowed-girly-and-the-pops/'
-		},
-		{
-			date: 'August 18, 2026',
-			time: null,
-			venue: 'The Fifth Column',
-			location: 'Contact us for address',
-			additionalInfo: null,
-			poster: null,
-			ticketUrl: null 
-		}
-	];
+	const upcomingShows = [];
 
 	const tours_2026 = [
 		{
@@ -130,10 +102,39 @@
 			additionalInfo: null,
 			poster: null,
 			ticketUrl: null
-		},
+		}
 	];
 
 	const pastShows = [
+		{
+			date: 'September 12, 2026',
+			time: '8:00 PM',
+			venue: 'The Middle East (upstairs)',
+			location: 'Cambridge, MA',
+			additionalInfo: null,
+			poster: '$lib/../images/middle_east_2026.jpg',
+			ticketUrl:
+				'https://www.ticketweb.com/event/fm-collective-the-funky-internationals-middle-east-upstairs-tickets/14291594?pl=mideastclub&REFID=clientsitewp'
+		},
+		{
+			date: 'August 13, 2026',
+			time: 'door: 7:00 PM, show: 8:00 PM',
+			venue: "Obrien's Pub",
+			location: 'Allston, MA',
+			additionalInfo: null,
+			poster: '$lib/../images/obriens_2026.jpeg',
+			ticketUrl:
+				'https://obrienspubboston.com/show/fae-feral-subcutaneous-sky-swallowed-girly-and-the-pops/'
+		},
+		{
+			date: 'August 18, 2026',
+			time: null,
+			venue: 'The Fifth Column',
+			location: 'Contact us for address',
+			additionalInfo: null,
+			poster: null,
+			ticketUrl: null
+		},
 		{
 			date: 'August 28, 2026',
 			time: null,
@@ -494,8 +495,6 @@
 			</div>
 		{/if}
 	</section> -->
-
-
 
 	<!-- Contact for Booking -->
 	<section class="mt-16 text-center">
